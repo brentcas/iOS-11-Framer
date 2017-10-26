@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>clear</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Controls/Text-Field/Light" transform="translate(-339.000000, -17.000000)" fill="#8E8E93">
+            <path d="M346.181981,23.4748737 L343.707107,21 L343,21.7071068 L345.474874,24.1819805 L343,26.6568542 L343.707107,27.363961 L346.181981,24.8890873 L348.656854,27.363961 L349.363961,26.6568542 L346.889087,24.1819805 L349.363961,21.7071068 L348.656854,21 L346.181981,23.4748737 Z M346,31 C342.134007,31 339,27.8659932 339,24 C339,20.1340068 342.134007,17 346,17 C349.865993,17 353,20.1340068 353,24 C353,27.8659932 349.865993,31 346,31 Z" id="clear"></path>
+        </g>
+    </g>
+</svg>

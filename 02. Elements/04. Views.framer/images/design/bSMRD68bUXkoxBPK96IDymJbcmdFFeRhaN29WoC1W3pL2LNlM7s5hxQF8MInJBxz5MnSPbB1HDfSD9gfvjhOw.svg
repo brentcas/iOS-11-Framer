@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="System/Light-Keyboard-Alphabetic" transform="translate(-16.000000, -130.000000)" fill="#000000">
+            <g id="row" transform="translate(5.000000, 117.000000)">
+                <g id="key">
+                    <path d="M30.847507,22.2116818 L21.334061,13.1342563 C21.1465523,12.9552479 20.842038,12.9552479 20.6545292,13.1342563 L11.1410832,22.2116818 C11.0035768,22.3426879 10.9620749,22.5401972 11.0365784,22.7117052 C11.0615795,22.7682079 11.0970812,22.8182102 11.1410832,22.8602122 C11.2295874,22.9447162 11.3505931,22.9942185 11.4810992,22.9942185 L30.507491,22.9942185 C30.7020002,22.9942185 30.8775084,22.8827133 30.9515119,22.7117052 C31.0260154,22.5401972 30.9845134,22.3426879 30.847507,22.2116818 L30.847507,22.2116818 Z M16.4918341,29 L25.492256,29 L25.492256,22.9997187 L16.4918341,22.9997187 L16.4918341,29 Z" id="arrow"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
