@@ -1,2 +1,2 @@
-# iOS 11 Framer
-iOS 11 Design System GUI for Framer
+# iOS 11 GUI for Framer
+This design system is currently under construction.
