@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>+</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Controls/TableViewCell/_/Right-Accessory/Stepper" transform="translate(-141.000000, -14.000000)" fill="#007AFF">
+            <g id="Group-2" transform="translate(73.000000, 8.000000)">
+                <polygon id="+" points="75 6 75 13 68 13 68 15 75 15 75 22 77 22 77 15 84 15 84 13 77 13 77 6"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
