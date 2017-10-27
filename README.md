@@ -1,6 +1,6 @@
 # iOS 11 GUI for Framer
 
-An iOS 11 graphical user interface element library assembled for Framer by [@brentcas][1].
+An iOS 11 graphical user interface element library assembled by [@brentcas][1].
 
 To open the Framer files, you need to have [Framer][2] installed on your macOS device. This collection of files is organized into folders like so:
 
