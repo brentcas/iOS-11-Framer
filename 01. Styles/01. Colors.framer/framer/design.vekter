@@ -5,6 +5,7 @@
       {
         "__class" : "RectangleNode",
         "aspectRatioLocked" : false,
+        "blendingEnabled" : 0,
         "blendingMode" : "normal",
         "blur" : 12,
         "blurEnabled" : 0,
@@ -30,6 +31,7 @@
           {
             "__class" : "RectangleNode",
             "aspectRatioLocked" : false,
+            "blendingEnabled" : 0,
             "blendingMode" : "normal",
             "blur" : 12,
             "blurEnabled" : 0,
@@ -55,6 +57,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -249,6 +252,7 @@
               {
                 "__class" : "RectangleNode",
                 "aspectRatioLocked" : false,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -326,6 +330,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -487,6 +492,7 @@
           {
             "__class" : "RectangleNode",
             "aspectRatioLocked" : false,
+            "blendingEnabled" : 0,
             "blendingMode" : "normal",
             "blur" : 12,
             "blurEnabled" : 0,
@@ -512,6 +518,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -706,6 +713,7 @@
               {
                 "__class" : "RectangleNode",
                 "aspectRatioLocked" : false,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -783,6 +791,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -944,6 +953,7 @@
           {
             "__class" : "RectangleNode",
             "aspectRatioLocked" : false,
+            "blendingEnabled" : 0,
             "blendingMode" : "normal",
             "blur" : 12,
             "blurEnabled" : 0,
@@ -969,6 +979,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -1163,6 +1174,7 @@
               {
                 "__class" : "RectangleNode",
                 "aspectRatioLocked" : false,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -1240,6 +1252,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -1401,6 +1414,7 @@
           {
             "__class" : "RectangleNode",
             "aspectRatioLocked" : false,
+            "blendingEnabled" : 0,
             "blendingMode" : "normal",
             "blur" : 12,
             "blurEnabled" : 0,
@@ -1426,6 +1440,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -1620,6 +1635,7 @@
               {
                 "__class" : "RectangleNode",
                 "aspectRatioLocked" : false,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -1697,6 +1713,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -1858,6 +1875,7 @@
           {
             "__class" : "RectangleNode",
             "aspectRatioLocked" : false,
+            "blendingEnabled" : 0,
             "blendingMode" : "normal",
             "blur" : 12,
             "blurEnabled" : 0,
@@ -1883,6 +1901,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -2077,6 +2096,7 @@
               {
                 "__class" : "RectangleNode",
                 "aspectRatioLocked" : false,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -2154,6 +2174,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -2315,6 +2336,7 @@
           {
             "__class" : "RectangleNode",
             "aspectRatioLocked" : false,
+            "blendingEnabled" : 0,
             "blendingMode" : "normal",
             "blur" : 12,
             "blurEnabled" : 0,
@@ -2340,6 +2362,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -2534,6 +2557,7 @@
               {
                 "__class" : "RectangleNode",
                 "aspectRatioLocked" : false,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -2611,6 +2635,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -2772,6 +2797,7 @@
           {
             "__class" : "RectangleNode",
             "aspectRatioLocked" : false,
+            "blendingEnabled" : 0,
             "blendingMode" : "normal",
             "blur" : 12,
             "blurEnabled" : 0,
@@ -2797,6 +2823,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -2991,6 +3018,7 @@
               {
                 "__class" : "RectangleNode",
                 "aspectRatioLocked" : false,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -3068,6 +3096,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -3229,6 +3258,7 @@
           {
             "__class" : "RectangleNode",
             "aspectRatioLocked" : false,
+            "blendingEnabled" : 0,
             "blendingMode" : "normal",
             "blur" : 12,
             "blurEnabled" : 0,
@@ -3254,6 +3284,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -3448,6 +3479,7 @@
               {
                 "__class" : "RectangleNode",
                 "aspectRatioLocked" : false,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -3525,6 +3557,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -3686,6 +3719,7 @@
           {
             "__class" : "RectangleNode",
             "aspectRatioLocked" : false,
+            "blendingEnabled" : 0,
             "blendingMode" : "normal",
             "blur" : 12,
             "blurEnabled" : 0,
@@ -3711,6 +3745,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -3905,6 +3940,7 @@
               {
                 "__class" : "RectangleNode",
                 "aspectRatioLocked" : false,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -3982,6 +4018,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -4143,6 +4180,7 @@
           {
             "__class" : "RectangleNode",
             "aspectRatioLocked" : false,
+            "blendingEnabled" : 0,
             "blendingMode" : "normal",
             "blur" : 12,
             "blurEnabled" : 0,
@@ -4168,6 +4206,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -4362,6 +4401,7 @@
               {
                 "__class" : "RectangleNode",
                 "aspectRatioLocked" : false,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -4439,6 +4479,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -4600,6 +4641,7 @@
           {
             "__class" : "RectangleNode",
             "aspectRatioLocked" : false,
+            "blendingEnabled" : 0,
             "blendingMode" : "normal",
             "blur" : 12,
             "blurEnabled" : 0,
@@ -4625,6 +4667,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -4819,6 +4862,7 @@
               {
                 "__class" : "RectangleNode",
                 "aspectRatioLocked" : false,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -4896,6 +4940,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -5057,6 +5102,7 @@
           {
             "__class" : "RectangleNode",
             "aspectRatioLocked" : false,
+            "blendingEnabled" : 0,
             "blendingMode" : "normal",
             "blur" : 12,
             "blurEnabled" : 0,
@@ -5082,6 +5128,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -5276,6 +5323,7 @@
               {
                 "__class" : "RectangleNode",
                 "aspectRatioLocked" : false,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -5353,6 +5401,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -5514,6 +5563,7 @@
           {
             "__class" : "RectangleNode",
             "aspectRatioLocked" : false,
+            "blendingEnabled" : 0,
             "blendingMode" : "normal",
             "blur" : 12,
             "blurEnabled" : 0,
@@ -5539,6 +5589,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -5733,6 +5784,7 @@
               {
                 "__class" : "RectangleNode",
                 "aspectRatioLocked" : false,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -5810,6 +5862,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -5971,6 +6024,7 @@
           {
             "__class" : "RectangleNode",
             "aspectRatioLocked" : false,
+            "blendingEnabled" : 0,
             "blendingMode" : "normal",
             "blur" : 12,
             "blurEnabled" : 0,
@@ -5996,6 +6050,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -6190,6 +6245,7 @@
               {
                 "__class" : "RectangleNode",
                 "aspectRatioLocked" : false,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -6267,6 +6323,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -6428,6 +6485,7 @@
           {
             "__class" : "RectangleNode",
             "aspectRatioLocked" : false,
+            "blendingEnabled" : 0,
             "blendingMode" : "normal",
             "blur" : 12,
             "blurEnabled" : 0,
@@ -6453,6 +6511,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -6647,6 +6706,7 @@
               {
                 "__class" : "RectangleNode",
                 "aspectRatioLocked" : false,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -6724,6 +6784,7 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : true,
+                "blendingEnabled" : 0,
                 "blendingMode" : "normal",
                 "blur" : 12,
                 "blurEnabled" : 0,
@@ -6912,7 +6973,7 @@
         "invertEnabled" : 0,
         "left" : 0,
         "locked" : false,
-        "name" : "System Colors",
+        "name" : "Colors",
         "opacity" : 1,
         "parentid" : "~YR&{1Ty",
         "radius" : 12,
@@ -6936,6 +6997,7 @@
       {
         "__class" : "TextNode",
         "autoSize" : true,
+        "blendingEnabled" : 0,
         "blendingMode" : "normal",
         "blur" : 12,
         "blurEnabled" : 0,
