@@ -67616,38 +67616,38 @@
                   ],
                   "inlineStyleRanges" : [
                     {
-                      "length" : 50,
+                      "length" : 22,
                       "offset" : 0,
                       "style" : "SIZE:22"
                     },
                     {
-                      "length" : 50,
+                      "length" : 22,
                       "offset" : 0,
                       "style" : "LETTERSPACING:0.35"
                     },
                     {
-                      "length" : 50,
+                      "length" : 22,
                       "offset" : 0,
                       "style" : "LINEHEIGHT:1.3"
                     },
                     {
-                      "length" : 50,
+                      "length" : 22,
                       "offset" : 0,
                       "style" : "ALIGN:left"
                     },
                     {
-                      "length" : 50,
+                      "length" : 22,
                       "offset" : 0,
                       "style" : "COLOR:rgb(75, 79, 86)"
                     },
                     {
-                      "length" : 50,
+                      "length" : 22,
                       "offset" : 0,
                       "style" : "FONT:__SF-UI-Display-Semibold__"
                     }
                   ],
                   "key" : "3prvs",
-                  "text" : "Optimized for iPhone SE, 8, 8 Plus, and iPod touch",
+                  "text" : "Optimized for iPhone 8",
                   "type" : "unstyled"
                 }
               ],
@@ -67658,7 +67658,7 @@
             "targetName" : null,
             "top" : 50,
             "visible" : true,
-            "width" : 497,
+            "width" : 230,
             "widthFactor" : null,
             "x" : 10,
             "y" : -72
