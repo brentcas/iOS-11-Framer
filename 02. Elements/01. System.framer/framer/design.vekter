@@ -7779,28 +7779,28 @@
               ],
               "inlineStyleRanges" : [
                 {
-                  "length" : 6,
+                  "length" : 8,
                   "offset" : 0,
                   "style" : "SIZE:53"
                 },
                 {
-                  "length" : 6,
+                  "length" : 8,
                   "offset" : 0,
                   "style" : "LETTERSPACING:0.25"
                 },
                 {
-                  "length" : 6,
+                  "length" : 8,
                   "offset" : 0,
                   "style" : "COLOR:rgb(75, 79, 86)"
                 },
                 {
-                  "length" : 6,
+                  "length" : 8,
                   "offset" : 0,
-                  "style" : "FONT:__SF-UI-Display-Heavy__"
+                  "style" : "FONT:__SF-UI-Display-Bold__"
                 }
               ],
               "key" : "3prvs",
-              "text" : "System",
+              "text" : "iPhone X",
               "type" : "unstyled"
             }
           ],
@@ -7811,7 +7811,7 @@
         "targetName" : null,
         "top" : 0,
         "visible" : true,
-        "width" : 195,
+        "width" : 217,
         "widthFactor" : null,
         "x" : 10,
         "y" : -72
