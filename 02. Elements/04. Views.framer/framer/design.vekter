@@ -32050,7 +32050,7 @@
         "exportOptions" : [
 
         ],
-        "fillColor" : "rgb(233, 235, 238)",
+        "fillColor" : "#E9EAF0",
         "fillEnabled" : true,
         "fillGradient" : {
           "__class" : "LinearGradient",
@@ -64524,7 +64524,7 @@
         "exportOptions" : [
 
         ],
-        "fillColor" : "rgb(233, 235, 238)",
+        "fillColor" : "#E9EAF0",
         "fillEnabled" : true,
         "fillGradient" : {
           "__class" : "LinearGradient",
@@ -69343,7 +69343,7 @@
         "exportOptions" : [
 
         ],
-        "fillColor" : "rgb(233, 235, 238)",
+        "fillColor" : "#E9EAF0",
         "fillEnabled" : true,
         "fillGradient" : {
           "__class" : "LinearGradient",
