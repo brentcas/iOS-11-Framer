@@ -2,11 +2,11 @@
 
 <br>
 <img src="https://raw.githubusercontent.com/brentcas/iOS-11-Framer/master/README-Images/Bars-Shot%402x.png" width="400" height="300" style="padding-right: 6px; padding-bottom: 3px; display: inline;">
-<img src="https://raw.githubusercontent.com/brentcas/iOS-11-Framer/master/README-Images/Bars2-Shot%402x.png" width="400" height="300" style="padding-right: 6px; padding-bottom: 3px; display: inline;">
+<img src="https://raw.githubusercontent.com/brentcas/iOS-11-Framer/master/README-Images/Bars2-Shot%402x.png" width="400" height="300" style="padding-bottom: 3px; display: inline;">
 <img src="https://raw.githubusercontent.com/brentcas/iOS-11-Framer/master/README-Images/Views-Shot%402x.png" width="400" height="300" style="padding-right: 6px; padding-bottom: 3px; display: inline;">
-<img src="https://raw.githubusercontent.com/brentcas/iOS-11-Framer/master/README-Images/Views2-Shot%402x.png" width="400" height="300" style="padding-right: 6px; padding-bottom: 3px; display: inline;">
+<img src="https://raw.githubusercontent.com/brentcas/iOS-11-Framer/master/README-Images/Views2-Shot%402x.png" width="400" height="300" style="padding-bottom: 3px; display: inline;">
 <img src="https://raw.githubusercontent.com/brentcas/iOS-11-Framer/master/README-Images/Controls-Shot%402x.png" width="400" height="300" style="padding-right: 6px; padding-bottom: 3px; display: inline;">
-<img src="https://raw.githubusercontent.com/brentcas/iOS-11-Framer/master/README-Images/Keyboard-Shot%402x.png" width="400" height="300" style="padding-right: 6px; padding-bottom: 3px; display: inline;">
+<img src="https://raw.githubusercontent.com/brentcas/iOS-11-Framer/master/README-Images/Keyboard-Shot%402x.png" width="400" height="300" style="padding-bottom: 3px; display: inline;">
 <br>
 
 An iOS 11 graphical user interface element library assembled by [@brentcas][1].
