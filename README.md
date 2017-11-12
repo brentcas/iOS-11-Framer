@@ -1,6 +1,7 @@
 # iOS 11 GUI for Framer
 
-
+![][image-1]![][image-2]![][image-3]
+![][image-4]![][image-5]![][image-6]
 
 An iOS 11 graphical user interface element library assembled by [@brentcas][1].
 
@@ -29,3 +30,10 @@ This project is not affiliated with Apple, Framer, or Domino’s Pizza. Please s
 [2]:	https://framer.com/
 [3]:	https://developer.apple.com/design/resources/
 [4]:	https://twitter.com/brentcas
+
+[image-1]:	https://github.com/brentcas/iOS-11-Framer/blob/master/README-Images/Bars-Shot%402x.png
+[image-2]:	https://github.com/brentcas/iOS-11-Framer/blob/master/README-Images/Bars2-Shot%402x.png
+[image-3]:	https://github.com/brentcas/iOS-11-Framer/blob/master/README-Images/Views-Shot%402x.png
+[image-4]:	https://github.com/brentcas/iOS-11-Framer/blob/master/README-Images/Views2-Shot%402x.png
+[image-5]:	https://github.com/brentcas/iOS-11-Framer/blob/master/README-Images/Controls-Shot%402x.png
+[image-6]:	https://github.com/brentcas/iOS-11-Framer/blob/master/README-Images/Keyboard-Shot%402x.png
