@@ -7047,7 +7047,7 @@
                   "SIZE:53",
                   "LETTERSPACING:0.25",
                   "COLOR:rgb(75, 79, 86)",
-                  "FONT:__SF-UI-Display-Heavy__"
+                  "FONT:__SF-UI-Display-Bold__"
                 ]
               },
               "depth" : 0,
@@ -7073,7 +7073,7 @@
                 {
                   "length" : 6,
                   "offset" : 0,
-                  "style" : "FONT:__SF-UI-Display-Heavy__"
+                  "style" : "FONT:__SF-UI-Display-Bold__"
                 }
               ],
               "key" : "3prvs",
@@ -7088,7 +7088,7 @@
         "targetName" : null,
         "top" : 0,
         "visible" : true,
-        "width" : 168,
+        "width" : 161,
         "widthFactor" : null,
         "x" : 10,
         "y" : -72
@@ -7097,5 +7097,5 @@
     "id" : "~YR&{1Ty",
     "parentid" : null
   },
-  "version" : 12
+  "version" : 13
 }

@@ -29202,7 +29202,7 @@
         "id" : "n{*Wb#LR",
         "invert" : 0,
         "invertEnabled" : 0,
-        "left" : 1790,
+        "left" : 1750,
         "locked" : false,
         "name" : "iPhone X - Portrait",
         "opacity" : 1,
@@ -29220,7 +29220,7 @@
         "sepia" : 0,
         "sepiaEnabled" : 0,
         "targetName" : null,
-        "top" : 123,
+        "top" : 129,
         "visible" : true,
         "width" : 1690,
         "widthFactor" : null
@@ -29255,7 +29255,7 @@
         "id" : "xJ9)x`)h",
         "invert" : 0,
         "invertEnabled" : 0,
-        "left" : 1790,
+        "left" : 1750,
         "locked" : false,
         "name" : "iPhone X",
         "opacity" : 1,
@@ -29317,7 +29317,7 @@
           }
         },
         "targetName" : null,
-        "top" : -6,
+        "top" : 0,
         "visible" : true,
         "width" : 235,
         "widthFactor" : null,
@@ -61480,7 +61480,7 @@
         "sepia" : 0,
         "sepiaEnabled" : 0,
         "targetName" : null,
-        "top" : 123,
+        "top" : 129,
         "visible" : true,
         "width" : 1690,
         "widthFactor" : null
@@ -61577,7 +61577,7 @@
           }
         },
         "targetName" : null,
-        "top" : -6,
+        "top" : 0,
         "visible" : true,
         "width" : 233,
         "widthFactor" : null,
@@ -61588,5 +61588,5 @@
     "id" : "NwKv)M+y",
     "parentid" : null
   },
-  "version" : 12
+  "version" : 13
 }

@@ -21914,7 +21914,7 @@
         "id" : "fc^:|:U`",
         "invert" : 0,
         "invertEnabled" : 0,
-        "left" : -334,
+        "left" : 1720,
         "locked" : false,
         "name" : "iPhone X - Keyboards",
         "opacity" : 1,
@@ -21932,7 +21932,7 @@
         "sepia" : 0,
         "sepiaEnabled" : 0,
         "targetName" : null,
-        "top" : -103,
+        "top" : 123,
         "visible" : true,
         "width" : 1660,
         "widthFactor" : null
@@ -21967,7 +21967,7 @@
         "id" : ")SRN(Ik-",
         "invert" : 0,
         "invertEnabled" : 0,
-        "left" : -334,
+        "left" : 1720,
         "locked" : false,
         "name" : "iPhone X",
         "opacity" : 1,
@@ -22029,7 +22029,7 @@
           }
         },
         "targetName" : null,
-        "top" : -226,
+        "top" : 0,
         "visible" : true,
         "width" : 217,
         "widthFactor" : null,
@@ -22086,7 +22086,7 @@
             "brightness" : 100,
             "brightnessEnabled" : 0,
             "centerAnchorX" : 0.61897590361445787,
-            "centerAnchorY" : 0.29993472584856395,
+            "centerAnchorY" : 0.3003267973856209,
             "children" : [
               {
                 "__class" : "RectangleNode",
@@ -25218,7 +25218,7 @@
             "brightness" : 100,
             "brightnessEnabled" : 0,
             "centerAnchorX" : 0.38102409638554219,
-            "centerAnchorY" : 0.74836814621409919,
+            "centerAnchorY" : 0.74934640522875817,
             "children" : [
               {
                 "__class" : "RectangleNode",
@@ -25444,7 +25444,7 @@
             "brightness" : 100,
             "brightnessEnabled" : 0,
             "centerAnchorX" : 0.38102409638554219,
-            "centerAnchorY" : 0.29993472584856395,
+            "centerAnchorY" : 0.3003267973856209,
             "children" : [
               {
                 "__class" : "RectangleNode",
@@ -25670,7 +25670,7 @@
             "brightness" : 100,
             "brightnessEnabled" : 0,
             "centerAnchorX" : 0.14307228915662651,
-            "centerAnchorY" : 0.74836814621409919,
+            "centerAnchorY" : 0.74934640522875817,
             "children" : [
               {
                 "__class" : "RectangleNode",
@@ -32823,7 +32823,7 @@
             "brightness" : 100,
             "brightnessEnabled" : 0,
             "centerAnchorX" : 0.14307228915662651,
-            "centerAnchorY" : 0.29993472584856395,
+            "centerAnchorY" : 0.3003267973856209,
             "children" : [
               {
                 "__class" : "RectangleNode",
@@ -39964,7 +39964,7 @@
             "brightness" : 100,
             "brightnessEnabled" : 0,
             "centerAnchorX" : 0.053012048192771083,
-            "centerAnchorY" : 0.041122715404699736,
+            "centerAnchorY" : 0.041176470588235294,
             "constraintsLocked" : false,
             "contrast" : 100,
             "contrastEnabled" : 0,
@@ -40081,7 +40081,7 @@
             "brightness" : 100,
             "brightnessEnabled" : 0,
             "centerAnchorX" : 0.85692771084337349,
-            "centerAnchorY" : 0.29993472584856395,
+            "centerAnchorY" : 0.3003267973856209,
             "children" : [
               {
                 "__class" : "RectangleNode",
@@ -40493,7 +40493,7 @@
             "brightness" : 100,
             "brightnessEnabled" : 0,
             "centerAnchorX" : 0.61897590361445787,
-            "centerAnchorY" : 0.74836814621409919,
+            "centerAnchorY" : 0.74934640522875817,
             "children" : [
               {
                 "__class" : "RectangleNode",
@@ -43624,8 +43624,8 @@
             ],
             "brightness" : 100,
             "brightnessEnabled" : 0,
-            "centerAnchorX" : 0.85963855421686752,
-            "centerAnchorY" : 0.75326797385620914,
+            "centerAnchorX" : 0.85692771084337349,
+            "centerAnchorY" : 0.74934640522875817,
             "children" : [
               {
                 "__class" : "RectangleNode",
@@ -44041,7 +44041,7 @@
         "id" : "8Z!skd?X",
         "invert" : 0,
         "invertEnabled" : 0,
-        "left" : -2054,
+        "left" : 0,
         "locked" : false,
         "name" : "iPhone 8 - Keyboards",
         "opacity" : 1,
@@ -44059,7 +44059,7 @@
         "sepia" : 0,
         "sepiaEnabled" : 0,
         "targetName" : null,
-        "top" : -103,
+        "top" : 123,
         "visible" : true,
         "width" : 1660,
         "widthFactor" : null
@@ -44094,7 +44094,7 @@
         "id" : "tysn*myo",
         "invert" : 0,
         "invertEnabled" : 0,
-        "left" : -2054,
+        "left" : 0,
         "locked" : false,
         "name" : "iPhone 8",
         "opacity" : 1,
@@ -44156,7 +44156,7 @@
           }
         },
         "targetName" : null,
-        "top" : -226,
+        "top" : 0,
         "visible" : true,
         "width" : 215,
         "widthFactor" : null,

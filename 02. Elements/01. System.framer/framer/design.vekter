@@ -2225,7 +2225,7 @@
             "widthFactor" : null
           }
         ],
-        "deviceType" : null,
+        "deviceType" : "apple-iphone-x-space-gray",
         "exportEnabled" : false,
         "exportIncludesBackground" : true,
         "exportOptions" : [
@@ -2245,7 +2245,6 @@
         "name" : "Home Screen Quick Action with Widget",
         "parentid" : ")>-9RX1'",
         "targetName" : null,
-        "type" : "apple-iphone-7-black",
         "width" : 375,
         "x" : 435,
         "y" : 1035
@@ -4174,7 +4173,7 @@
             "widthFactor" : null
           }
         ],
-        "deviceType" : null,
+        "deviceType" : "apple-iphone-x-space-gray",
         "exportEnabled" : false,
         "exportIncludesBackground" : true,
         "exportOptions" : [
@@ -4194,7 +4193,6 @@
         "name" : "Home Screen Quick Action",
         "parentid" : ")>-9RX1'",
         "targetName" : null,
-        "type" : "apple-iphone-7-black",
         "width" : 375,
         "x" : 0,
         "y" : 1035
@@ -4877,7 +4875,7 @@
             "widthFactor" : null
           }
         ],
-        "deviceType" : null,
+        "deviceType" : "apple-iphone-x-space-gray",
         "exportEnabled" : false,
         "exportIncludesBackground" : true,
         "exportOptions" : [
@@ -4897,7 +4895,6 @@
         "name" : "Widgets",
         "parentid" : ")>-9RX1'",
         "targetName" : null,
-        "type" : "apple-iphone-7-black",
         "width" : 375,
         "x" : 1305,
         "y" : 163
@@ -6341,7 +6338,7 @@
             "widthFactor" : null
           }
         ],
-        "deviceType" : null,
+        "deviceType" : "apple-iphone-x-space-gray",
         "exportEnabled" : false,
         "exportIncludesBackground" : true,
         "exportOptions" : [
@@ -6361,7 +6358,6 @@
         "name" : "Notification - Expanded",
         "parentid" : ")>-9RX1'",
         "targetName" : null,
-        "type" : "apple-iphone-7-black",
         "width" : 375,
         "x" : 870,
         "y" : 163
@@ -7101,7 +7097,7 @@
             "widthFactor" : null
           }
         ],
-        "deviceType" : null,
+        "deviceType" : "apple-iphone-x-space-gray",
         "exportEnabled" : false,
         "exportIncludesBackground" : true,
         "exportOptions" : [
@@ -7121,7 +7117,6 @@
         "name" : "Notification",
         "parentid" : ")>-9RX1'",
         "targetName" : null,
-        "type" : "apple-iphone-7-black",
         "width" : 375,
         "x" : 435,
         "y" : 163
@@ -7692,7 +7687,7 @@
             "widthFactor" : null
           }
         ],
-        "deviceType" : null,
+        "deviceType" : "apple-iphone-x-space-gray",
         "exportEnabled" : false,
         "exportIncludesBackground" : true,
         "exportOptions" : [
@@ -7712,7 +7707,6 @@
         "name" : "Home Screen App Icon",
         "parentid" : ")>-9RX1'",
         "targetName" : null,
-        "type" : "apple-iphone-7-black",
         "width" : 375,
         "x" : 0,
         "y" : 163
@@ -7749,7 +7743,7 @@
         "invertEnabled" : 0,
         "left" : 0,
         "locked" : false,
-        "name" : "System",
+        "name" : "iPhone X",
         "opacity" : 1,
         "parentid" : ")>-9RX1'",
         "right" : null,
@@ -7820,5 +7814,5 @@
     "id" : ")>-9RX1'",
     "parentid" : null
   },
-  "version" : 12
+  "version" : 13
 }
