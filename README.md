@@ -1,6 +1,10 @@
 # iOS 11 GUI for Framer
 
+<br>
 
+![][image-1]
+
+<br>
 
 An iOS 11 graphical user interface element library assembled by [@brentcas][1].
 
@@ -29,3 +33,5 @@ This project is not affiliated with Apple, Framer, or Domino’s Pizza. Please s
 [2]:	https://framer.com/
 [3]:	https://developer.apple.com/design/resources/
 [4]:	https://twitter.com/brentcas
+
+[image-1]:	https://raw.githubusercontent.com/brentcas/iOS-11-Framer/master/README-Images/shots%402x.png
