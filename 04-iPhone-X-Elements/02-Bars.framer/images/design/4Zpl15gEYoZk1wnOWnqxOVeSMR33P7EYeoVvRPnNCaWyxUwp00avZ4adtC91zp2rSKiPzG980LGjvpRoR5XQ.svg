@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="21px" viewBox="0 0 13 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Chevron</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bars/Navigation-Bar/_/Light/Left-Combinations/Back-Button" transform="translate(-8.000000, -11.000000)" fill="#007AFF">
+            <g id="Back-Button" transform="translate(8.000000, 10.000000)">
+                <path d="M10.0371349,21.5826673 L0.792151852,12.4458042 C0.402616049,12.0611888 0.402616049,11.4398102 0.792151852,11.0541958 L10.0371349,1.91733267 C10.5994648,1.36088911 11.5143745,1.36088911 12.0777032,1.91733267 C12.6400331,2.47377622 12.6400331,3.37687313 12.0777032,3.93331668 L4.16912762,11.7504995 L12.0777032,19.5656843 C12.6400331,20.1231269 12.6400331,21.0262238 12.0777032,21.5826673 C11.5143745,22.1391109 10.5994648,22.1391109 10.0371349,21.5826673" id="Chevron"></path>
+            </g>
+        </g>
+    </g>
+</svg>

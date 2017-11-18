@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="12px" viewBox="0 0 27 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Battery</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-8" transform="translate(-343.000000, -4.000000)" fill="#000000">
+            <g id="Group">
+                <g id="Status-Bar" transform="translate(6.000000, 3.000000)">
+                    <g id="Right-Detail" transform="translate(290.000000, 0.000000)">
+                        <g id="battery" transform="translate(11.000000, 0.000000)">
+                            <g id="Battery" transform="translate(36.000000, 1.500000)">
+                                <path d="M25,3.5 C25.8626136,3.75789902 26.5,4.66748641 26.5,5.75 C26.5,6.83251359 25.8626136,7.74210098 25,8 L25,3.5 Z" id="connector" fill-opacity="0.5"></path>
+                                <rect id="fill" x="2" y="2" width="20" height="7.5" rx="1"></rect>
+                                <path d="M0,2.49532872 C0,1.11719672 1.12537944,0 2.50050165,0 L21.4994984,0 C22.8804873,0 24,1.12360706 24,2.49532872 L24,9.00467128 C24,10.3828033 22.885738,11.5 21.4950088,11.5 L22.6526315,11.5 C21.2691631,11.5 19.035717,11.5 17.6569367,11.5 L2.49070357,11.5 C1.11512597,11.5 0,10.3763929 0,9.00467128 L0,2.49532872 Z M2.5,1 C1.67157288,1 1,1.67157288 1,2.5 L1,9 C1,9.82842712 1.67157288,10.5 2.5,10.5 L21.5,10.5 C22.3284271,10.5 23,9.82842712 23,9 L23,2.5 C23,1.67157288 22.3284271,1 21.5,1 L2.5,1 Z" id="border" fill-opacity="0.4"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

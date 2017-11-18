@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="10px" viewBox="0 0 8 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Lock</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="iOS-10-GUI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Lockscreen---Notification" transform="translate(-184.000000, -8.000000)" fill="#FFFFFF">
+            <g id="Status-Bar---Lock-Screen-Light">
+                <path d="M189.999994,12 C189.999998,11.9983733 190,11.9967461 190,11.9951185 L190,11.0048815 C190,9.8938998 189.104569,9 188,9 C186.88773,9 186,9.89761602 186,11.0048815 L186,11.9951185 C186,11.9967461 186.000002,11.9983733 186.000006,12 L189.999995,12 Z M185.000014,12 C185.000005,11.9969163 185,11.9938314 185,11.9907455 L185,11.0092545 C185,9.34728911 186.346517,8 188,8 C189.656854,8 191,9.34967041 191,11.0092545 L191,11.9907455 C191,11.9938315 190.999995,11.9969163 190.999986,12 L192,12 L192,18 L184,18 L184,12 L185.000014,12 Z" id="Lock"></path>
+            </g>
+        </g>
+    </g>
+</svg>

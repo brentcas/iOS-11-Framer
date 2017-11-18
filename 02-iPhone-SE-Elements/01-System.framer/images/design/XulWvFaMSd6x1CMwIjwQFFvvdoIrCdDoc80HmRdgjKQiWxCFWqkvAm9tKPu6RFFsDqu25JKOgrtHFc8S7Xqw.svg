@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="24px" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>↳ Glyph</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M29.7707796,15.884 L23.3827796,20.556 L25.6927796,27.729 C25.6927796,27.729 27.0277796,30.743 24.3087796,28.796 C21.8177796,27.012 18.2577796,24.318 18.2577796,24.318 C18.2577796,24.318 14.5247796,27.071 12.0567796,28.889 C9.57377958,30.719 10.8427796,27.635 10.8427796,27.635 L13.1407796,20.547 L6.89977958,15.985 C6.89977958,15.985 4.63777958,14.446 7.28677958,14.446 C10.3357796,14.446 15.1017796,14.448 15.1017796,14.448 L17.5917796,6.667 C17.5917796,6.667 17.7857796,6 18.2757796,6 C18.7967796,6 18.9707796,6.716 18.9707796,6.716 L21.4317796,14.454 C21.4317796,14.454 26.1497796,14.446 29.2007796,14.446 C31.7077796,14.446 29.7707796,15.884 29.7707796,15.884" id="path-1"></path>
+    </defs>
+    <g id="Design-Templates---System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Screen-Quick-Action" transform="translate(-306.000000, -243.000000)">
+            <g id="System/Quick-Actions---4-Actions" transform="translate(100.000000, 224.000000)">
+                <g id="Action-1" transform="translate(0.000000, 13.000000)">
+                    <g id="Glyphs/Quick-Actions/Favorite" transform="translate(200.000000, 0.000000)">
+                        <g id="star" style="mix-blend-mode: color-burn;">
+                            <use fill-opacity="0.3" fill="#000000" xlink:href="#path-1"></use>
+                            <use fill="#4D4D4D" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
