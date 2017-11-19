@@ -5,64 +5,6 @@
       {
         "__class" : "FrameNode",
         "children" : [
-
-        ],
-        "deviceType" : "apple-iphone-se-space-gray",
-        "exportEnabled" : false,
-        "exportIncludesBackground" : true,
-        "exportOptions" : [
-
-        ],
-        "fillColor" : "#ffffff",
-        "fillGradient" : {
-          "__class" : "LinearGradient",
-          "alpha" : 1,
-          "angle" : 0,
-          "end" : "rgba(0,0,0,0)",
-          "start" : "black"
-        },
-        "fillType" : "color",
-        "height" : 568,
-        "id" : "@A8iRy[e",
-        "name" : "Home Screen Quick Action with Widget",
-        "parentid" : ")>-9RX1'",
-        "targetName" : null,
-        "width" : 320,
-        "x" : 760,
-        "y" : 791
-      },
-      {
-        "__class" : "FrameNode",
-        "children" : [
-
-        ],
-        "deviceType" : "apple-iphone-se-space-gray",
-        "exportEnabled" : false,
-        "exportIncludesBackground" : true,
-        "exportOptions" : [
-
-        ],
-        "fillColor" : "#ffffff",
-        "fillGradient" : {
-          "__class" : "LinearGradient",
-          "alpha" : 1,
-          "angle" : 0,
-          "end" : "rgba(0,0,0,0)",
-          "start" : "black"
-        },
-        "fillType" : "color",
-        "height" : 568,
-        "id" : "=B%PJ}i}",
-        "name" : "Home Screen Quick Action",
-        "parentid" : ")>-9RX1'",
-        "targetName" : null,
-        "width" : 320,
-        "x" : 380,
-        "y" : 791
-      },
-      {
-        "__class" : "FrameNode",
-        "children" : [
           {
             "__class" : "ImageNode",
             "aspectRatioLocked" : true,
@@ -666,7 +608,7 @@
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
-            "blur" : 12,
+            "blur" : 10,
             "blurEnabled" : 1,
             "blurType" : "background",
             "borderBottom" : 1,
@@ -706,29 +648,19 @@
                 "borderWidth" : 1,
                 "bottom" : null,
                 "boxShadows" : [
-                  {
-                    "__class" : "BoxShadow",
-                    "blur" : 5,
-                    "color" : "rgba(0,0,0,0.25)",
-                    "enabled" : false,
-                    "inset" : false,
-                    "spread" : 0,
-                    "x" : 0,
-                    "y" : 2
-                  }
+
                 ],
                 "brightness" : 100,
                 "brightnessEnabled" : 0,
-                "centerAnchorX" : 0.95543175487465182,
-                "centerAnchorY" : 0.51388888888888884,
+                "centerAnchorX" : 0.94078947368421051,
+                "centerAnchorY" : 0.4861111111111111,
                 "children" : [
 
                 ],
                 "clip" : false,
-                "constraintsLocked" : true,
+                "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -740,8 +672,8 @@
                 "heightFactor" : null,
                 "hueRotate" : 0,
                 "hueRotateEnabled" : 0,
-                "id" : "Iq>=TmIh",
-                "image" : "wBLq95f8INCLmf57rewuu8RiKemuSfSg6qfJC7ivOaN9jsgl1v3twOFEgikd6j2wbJnfbiMHVa1FVy9ZLSQ.svg",
+                "id" : "YgFc:-C]",
+                "image" : "KKs3kXO74FjqGyfr5nnTXm68TXvsMpAqYsIwYoZY7TYz7noGvir7nUskl4j6YXfdZjjW7403LBp36i1e5JRQ.svg",
                 "imageBackgroundSize" : "Cover",
                 "intrinsicHeight" : 19,
                 "intrinsicWidth" : 12,
@@ -749,9 +681,9 @@
                 "invertEnabled" : 0,
                 "left" : null,
                 "locked" : false,
-                "name" : "dictationIcon",
+                "name" : "dictationIconWhite",
                 "opacity" : 1,
-                "originalFilename" : "dictationIcon.svg",
+                "originalFilename" : "dictationIconWhite.svg",
                 "parentid" : "eW[n2^\/`",
                 "radius" : 0,
                 "radiusBottomLeft" : 0,
@@ -759,7 +691,7 @@
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
-                "right" : 10,
+                "right" : 12,
                 "rotation" : 0,
                 "saturate" : 100,
                 "saturateEnabled" : 0,
@@ -782,7 +714,7 @@
                 "bottom" : null,
                 "brightness" : 100,
                 "brightnessEnabled" : 0,
-                "centerAnchorX" : 0.16295264623955433,
+                "centerAnchorX" : 0.19243421052631579,
                 "centerAnchorY" : 0.5,
                 "constraintsLocked" : true,
                 "contrast" : 100,
@@ -813,14 +745,7 @@
                 "sepia" : 0,
                 "sepiaEnabled" : 0,
                 "shadows" : [
-                  {
-                    "__class" : "Shadow",
-                    "blur" : 5,
-                    "color" : "rgba(0,0,0,0.25)",
-                    "enabled" : false,
-                    "x" : 0,
-                    "y" : 2
-                  }
+
                 ],
                 "styledText" : {
                   "__class" : "StyledTextDraft",
@@ -832,7 +757,7 @@
                           "LETTERSPACING:-0.41",
                           "LINEHEIGHT:1.3",
                           "FONT:SFProText-Regular",
-                          "COLOR:rgb(142, 142, 147)"
+                          "COLOR:hsla(0, 0%, 100%, 0.45)"
                         ]
                       },
                       "depth" : 0,
@@ -863,7 +788,7 @@
                         {
                           "length" : 6,
                           "offset" : 0,
-                          "style" : "COLOR:rgb(142, 142, 147)"
+                          "style" : "COLOR:hsla(0, 0%, 100%, 0.45)"
                         }
                       ],
                       "key" : "5u5t",
@@ -902,29 +827,19 @@
                 "borderWidth" : 1,
                 "bottom" : null,
                 "boxShadows" : [
-                  {
-                    "__class" : "BoxShadow",
-                    "blur" : 5,
-                    "color" : "rgba(0,0,0,0.25)",
-                    "enabled" : false,
-                    "inset" : false,
-                    "spread" : 0,
-                    "x" : 0,
-                    "y" : 2
-                  }
+
                 ],
                 "brightness" : 100,
                 "brightnessEnabled" : 0,
-                "centerAnchorX" : 0.047353760445682451,
+                "centerAnchorX" : 0.055921052631578948,
                 "centerAnchorY" : 0.5,
                 "children" : [
 
                 ],
                 "clip" : false,
-                "constraintsLocked" : true,
+                "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -936,8 +851,8 @@
                 "heightFactor" : null,
                 "hueRotate" : 0,
                 "hueRotateEnabled" : 0,
-                "id" : ":R'gNj(<",
-                "image" : "tUaVoz9lb46Qf0RklwJmShXDcQTMJpkcQnes6s7jZ2mvMYiKjYsoAyTmiE6K8xDiyUJfVL33UfA2Clpl9gjrQ.svg",
+                "id" : "6b|7Dm;s",
+                "image" : "IuKyFfImvcVY9JQ6RlHmwwqWwRUpbX4BwRhf2SVB2SVEVsvktGlh4JjrbdWMbVW0b3GJ3jafHe7i4RepQXCQ.svg",
                 "imageBackgroundSize" : "Cover",
                 "intrinsicHeight" : 14,
                 "intrinsicWidth" : 14,
@@ -945,9 +860,9 @@
                 "invertEnabled" : 0,
                 "left" : 10,
                 "locked" : false,
-                "name" : "searchIcon",
+                "name" : "searchIconWhite",
                 "opacity" : 1,
-                "originalFilename" : "searchIcon.svg",
+                "originalFilename" : "searchIconWhite.svg",
                 "parentid" : "eW[n2^\/`",
                 "radius" : 0,
                 "radiusBottomLeft" : 0,
@@ -976,7 +891,7 @@
             "exportOptions" : [
 
             ],
-            "fillColor" : "rgba(142, 142, 147, 0.12)",
+            "fillColor" : "hsla(0, 0%, 70%, 0.2)",
             "fillEnabled" : true,
             "fillGradient" : {
               "__class" : "LinearGradient",
