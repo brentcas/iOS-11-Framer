@@ -7,6 +7,9 @@
   "cachedDeviceWidth" : 0,
   "deviceType" : "fullscreen",
   "sharedPrototype" : true,
+  "propertyPanelToggleStates" : {
+
+  },
   "projectId" : "F592A505-E860-4EF2-85F1-EE1A5A398558",
   "deviceOrientation" : 0,
   "selectedHand" : "",
