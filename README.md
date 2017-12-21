@@ -14,13 +14,6 @@ To open the Framer files, you need to have [Framer][2] installed on your macOS d
 > - 01-Colors.framer
 > - 02-Fonts.framer
 
-> 02-iPhone-SE-Elements
-> - 01-System.framer
-> - 02-Bars.framer
-> - 03-Controls.framer
-> - 04-Views.framer
-> - 05-Keyboards.framer
-
 > 03-iPhone-8-Elements
 > - 01-System.framer
 > - 02-Bars.framer
