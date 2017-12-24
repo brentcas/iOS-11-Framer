@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="15px" viewBox="0 0 10 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>chevron</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Controls/TableViewCell/_/Right-Accessory/Disclosure" transform="translate(-163.000000, -15.000000)" fill="#8E8E93">
+            <path d="M170.071068,18.0710678 L170.071068,17.0710678 L160.071068,17.0710678 L160.071068,19.0710678 L168.071068,19.0710678 L168.071068,27.0710678 L170.071068,27.0710678 L170.071068,18.0710678 Z" id="chevron" transform="translate(165.071068, 22.071068) rotate(-315.000000) translate(-165.071068, -22.071068) "></path>
+        </g>
+    </g>
+</svg>
