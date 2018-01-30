@@ -3,7 +3,7 @@
     "__class" : "CanvasNode",
     "children" : [
       {
-        "__class" : "RectangleNode",
+        "__class" : "FrameNode",
         "aspectRatioLocked" : false,
         "blendingEnabled" : 0,
         "blendingMode" : "normal",
@@ -29,7 +29,7 @@
         "centerAnchorY" : 0.07795965608465609,
         "children" : [
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -71,7 +71,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -245,12 +244,10 @@
                 "top" : 91,
                 "visible" : true,
                 "width" : 20,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -281,7 +278,8 @@
                 "constraintsLocked" : true,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
-                "exportEnabled" : false,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -312,6 +310,7 @@
                 "radius" : 6.5,
                 "radiusBottomLeft" : 6.5,
                 "radiusBottomRight" : 6.5,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 6.5,
                 "radiusTopRight" : 6.5,
@@ -344,7 +343,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -426,6 +424,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"3prvs-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(144, 148, 156);font-size:11px;letter-spacing:0.07px;line-height:1.2\"><span data-text=\"true\">Black<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 13,
+                      "width" : 30
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -434,16 +441,15 @@
                 "top" : 0,
                 "visible" : true,
                 "width" : 30,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               }
             ],
             "clip" : false,
             "constraintsLocked" : true,
             "contrast" : 100,
             "contrastEnabled" : 0,
-            "exportEnabled" : false,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -474,6 +480,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -490,7 +497,7 @@
             "widthFactor" : null
           },
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -532,7 +539,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -706,12 +712,10 @@
                 "top" : 91,
                 "visible" : true,
                 "width" : 32,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -742,7 +746,8 @@
                 "constraintsLocked" : true,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
-                "exportEnabled" : false,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -773,6 +778,7 @@
                 "radius" : 6.5,
                 "radiusBottomLeft" : 6.5,
                 "radiusBottomRight" : 6.5,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 6.5,
                 "radiusTopRight" : 6.5,
@@ -805,7 +811,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -887,6 +892,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"3prvs-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(144, 148, 156);font-size:11px;letter-spacing:0.07px;line-height:1.2\"><span data-text=\"true\">Gray<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 13,
+                      "width" : 26
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -895,16 +909,15 @@
                 "top" : 0,
                 "visible" : true,
                 "width" : 26,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               }
             ],
             "clip" : false,
             "constraintsLocked" : true,
             "contrast" : 100,
             "contrastEnabled" : 0,
-            "exportEnabled" : false,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -935,6 +948,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -951,7 +965,7 @@
             "widthFactor" : null
           },
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -993,7 +1007,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -1167,12 +1180,10 @@
                 "top" : 91,
                 "visible" : true,
                 "width" : 33,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -1203,7 +1214,8 @@
                 "constraintsLocked" : true,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
-                "exportEnabled" : false,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -1234,6 +1246,7 @@
                 "radius" : 6.5,
                 "radiusBottomLeft" : 6.5,
                 "radiusBottomRight" : 6.5,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 6.5,
                 "radiusTopRight" : 6.5,
@@ -1266,7 +1279,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -1348,6 +1360,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"3prvs-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(144, 148, 156);font-size:11px;letter-spacing:0.07px;line-height:1.2\"><span data-text=\"true\">Mid Gray<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 13,
+                      "width" : 48
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -1356,16 +1377,15 @@
                 "top" : 0,
                 "visible" : true,
                 "width" : 48,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               }
             ],
             "clip" : false,
             "constraintsLocked" : true,
             "contrast" : 100,
             "contrastEnabled" : 0,
-            "exportEnabled" : false,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -1396,6 +1416,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -1412,7 +1433,7 @@
             "widthFactor" : null
           },
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -1454,7 +1475,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -1628,12 +1648,10 @@
                 "top" : 91,
                 "visible" : true,
                 "width" : 34,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -1664,7 +1682,8 @@
                 "constraintsLocked" : true,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
-                "exportEnabled" : false,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -1695,6 +1714,7 @@
                 "radius" : 6.5,
                 "radiusBottomLeft" : 6.5,
                 "radiusBottomRight" : 6.5,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 6.5,
                 "radiusTopRight" : 6.5,
@@ -1727,7 +1747,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -1809,6 +1828,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"3prvs-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(144, 148, 156);font-size:11px;letter-spacing:0.07px;line-height:1.2\"><span data-text=\"true\">Light Gray 2<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 13,
+                      "width" : 66
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -1817,16 +1845,15 @@
                 "top" : 0,
                 "visible" : true,
                 "width" : 66,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               }
             ],
             "clip" : false,
             "constraintsLocked" : true,
             "contrast" : 100,
             "contrastEnabled" : 0,
-            "exportEnabled" : false,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -1857,6 +1884,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -1873,7 +1901,7 @@
             "widthFactor" : null
           },
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -1915,7 +1943,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -2089,12 +2116,10 @@
                 "top" : 91,
                 "visible" : true,
                 "width" : 34,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -2125,7 +2150,8 @@
                 "constraintsLocked" : true,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
-                "exportEnabled" : false,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -2156,6 +2182,7 @@
                 "radius" : 6.5,
                 "radiusBottomLeft" : 6.5,
                 "radiusBottomRight" : 6.5,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 6.5,
                 "radiusTopRight" : 6.5,
@@ -2188,7 +2215,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -2270,6 +2296,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"3prvs-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(144, 148, 156);font-size:11px;letter-spacing:0.07px;line-height:1.2\"><span data-text=\"true\">Light Gray<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 13,
+                      "width" : 56
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -2278,16 +2313,15 @@
                 "top" : 0,
                 "visible" : true,
                 "width" : 56,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               }
             ],
             "clip" : false,
             "constraintsLocked" : true,
             "contrast" : 100,
             "contrastEnabled" : 0,
-            "exportEnabled" : false,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -2318,6 +2352,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -2334,7 +2369,7 @@
             "widthFactor" : null
           },
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -2376,7 +2411,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -2550,12 +2584,10 @@
                 "top" : 91,
                 "visible" : true,
                 "width" : 34,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -2586,7 +2618,8 @@
                 "constraintsLocked" : true,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
-                "exportEnabled" : false,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -2617,6 +2650,7 @@
                 "radius" : 6.5,
                 "radiusBottomLeft" : 6.5,
                 "radiusBottomRight" : 6.5,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 6.5,
                 "radiusTopRight" : 6.5,
@@ -2649,7 +2683,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -2731,6 +2764,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"3prvs-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(144, 148, 156);font-size:11px;letter-spacing:0.07px;line-height:1.2\"><span data-text=\"true\">Custom Gray<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 13,
+                      "width" : 70
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -2739,16 +2781,15 @@
                 "top" : 0,
                 "visible" : true,
                 "width" : 70,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               }
             ],
             "clip" : false,
             "constraintsLocked" : true,
             "contrast" : 100,
             "contrastEnabled" : 0,
-            "exportEnabled" : false,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -2779,6 +2820,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -2795,7 +2837,7 @@
             "widthFactor" : null
           },
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -2837,7 +2879,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -3011,12 +3052,10 @@
                 "top" : 91,
                 "visible" : true,
                 "width" : 33,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -3047,7 +3086,8 @@
                 "constraintsLocked" : true,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
-                "exportEnabled" : false,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -3078,6 +3118,7 @@
                 "radius" : 6.5,
                 "radiusBottomLeft" : 6.5,
                 "radiusBottomRight" : 6.5,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 6.5,
                 "radiusTopRight" : 6.5,
@@ -3110,7 +3151,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -3192,6 +3232,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"3prvs-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(144, 148, 156);font-size:11px;letter-spacing:0.07px;line-height:1.2\"><span data-text=\"true\">White<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 13,
+                      "width" : 32
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -3200,16 +3249,15 @@
                 "top" : 0,
                 "visible" : true,
                 "width" : 32,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               }
             ],
             "clip" : false,
             "constraintsLocked" : true,
             "contrast" : 100,
             "contrastEnabled" : 0,
-            "exportEnabled" : false,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -3240,6 +3288,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -3256,7 +3305,7 @@
             "widthFactor" : null
           },
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -3298,7 +3347,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -3472,12 +3520,10 @@
                 "top" : 91,
                 "visible" : true,
                 "width" : 32,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -3508,7 +3554,8 @@
                 "constraintsLocked" : true,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
-                "exportEnabled" : false,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -3539,6 +3586,7 @@
                 "radius" : 6.5,
                 "radiusBottomLeft" : 6.5,
                 "radiusBottomRight" : 6.5,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 6.5,
                 "radiusTopRight" : 6.5,
@@ -3571,7 +3619,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -3653,6 +3700,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"3prvs-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(144, 148, 156);font-size:11px;letter-spacing:0.07px;line-height:1.2\"><span data-text=\"true\">Pink<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 13,
+                      "width" : 24
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -3661,16 +3717,15 @@
                 "top" : 0,
                 "visible" : true,
                 "width" : 24,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               }
             ],
             "clip" : false,
             "constraintsLocked" : true,
             "contrast" : 100,
             "contrastEnabled" : 0,
-            "exportEnabled" : false,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -3701,6 +3756,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -3717,7 +3773,7 @@
             "widthFactor" : null
           },
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -3759,7 +3815,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -3933,12 +3988,10 @@
                 "top" : 91,
                 "visible" : true,
                 "width" : 31,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -3969,7 +4022,8 @@
                 "constraintsLocked" : true,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
-                "exportEnabled" : false,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -4000,6 +4054,7 @@
                 "radius" : 6.5,
                 "radiusBottomLeft" : 6.5,
                 "radiusBottomRight" : 6.5,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 6.5,
                 "radiusTopRight" : 6.5,
@@ -4032,7 +4087,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -4114,6 +4168,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"3prvs-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(144, 148, 156);font-size:11px;letter-spacing:0.07px;line-height:1.2\"><span data-text=\"true\">Purple<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 13,
+                      "width" : 35
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -4122,16 +4185,15 @@
                 "top" : 0,
                 "visible" : true,
                 "width" : 35,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               }
             ],
             "clip" : false,
             "constraintsLocked" : true,
             "contrast" : 100,
             "contrastEnabled" : 0,
-            "exportEnabled" : false,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -4162,6 +4224,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -4178,7 +4241,7 @@
             "widthFactor" : null
           },
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -4220,7 +4283,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -4394,12 +4456,10 @@
                 "top" : 91,
                 "visible" : true,
                 "width" : 32,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -4430,7 +4490,8 @@
                 "constraintsLocked" : true,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
-                "exportEnabled" : false,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -4461,6 +4522,7 @@
                 "radius" : 6.5,
                 "radiusBottomLeft" : 6.5,
                 "radiusBottomRight" : 6.5,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 6.5,
                 "radiusTopRight" : 6.5,
@@ -4493,7 +4555,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -4575,6 +4636,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"3prvs-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(144, 148, 156);font-size:11px;letter-spacing:0.07px;line-height:1.2\"><span data-text=\"true\">Blue<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 13,
+                      "width" : 24
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -4583,16 +4653,15 @@
                 "top" : 0,
                 "visible" : true,
                 "width" : 24,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               }
             ],
             "clip" : false,
             "constraintsLocked" : true,
             "contrast" : 100,
             "contrastEnabled" : 0,
-            "exportEnabled" : false,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -4623,6 +4692,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -4639,7 +4709,7 @@
             "widthFactor" : null
           },
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -4681,7 +4751,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -4855,12 +4924,10 @@
                 "top" : 91,
                 "visible" : true,
                 "width" : 34,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -4891,7 +4958,8 @@
                 "constraintsLocked" : true,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
-                "exportEnabled" : false,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -4922,6 +4990,7 @@
                 "radius" : 6.5,
                 "radiusBottomLeft" : 6.5,
                 "radiusBottomRight" : 6.5,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 6.5,
                 "radiusTopRight" : 6.5,
@@ -4954,7 +5023,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -5036,6 +5104,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"3prvs-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(144, 148, 156);font-size:11px;letter-spacing:0.07px;line-height:1.2\"><span data-text=\"true\">Teal Blue<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 13,
+                      "width" : 49
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -5044,16 +5121,15 @@
                 "top" : 0,
                 "visible" : true,
                 "width" : 49,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               }
             ],
             "clip" : false,
             "constraintsLocked" : true,
             "contrast" : 100,
             "contrastEnabled" : 0,
-            "exportEnabled" : false,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -5084,6 +5160,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -5100,7 +5177,7 @@
             "widthFactor" : null
           },
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -5142,7 +5219,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -5316,12 +5392,10 @@
                 "top" : 91,
                 "visible" : true,
                 "width" : 31,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -5352,7 +5426,8 @@
                 "constraintsLocked" : true,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
-                "exportEnabled" : false,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -5383,6 +5458,7 @@
                 "radius" : 6.5,
                 "radiusBottomLeft" : 6.5,
                 "radiusBottomRight" : 6.5,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 6.5,
                 "radiusTopRight" : 6.5,
@@ -5415,7 +5491,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -5497,6 +5572,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"3prvs-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(144, 148, 156);font-size:11px;letter-spacing:0.07px;line-height:1.2\"><span data-text=\"true\">Green<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 13,
+                      "width" : 33
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -5505,16 +5589,15 @@
                 "top" : 0,
                 "visible" : true,
                 "width" : 33,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               }
             ],
             "clip" : false,
             "constraintsLocked" : false,
             "contrast" : 100,
             "contrastEnabled" : 0,
-            "exportEnabled" : false,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -5545,6 +5628,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -5561,7 +5645,7 @@
             "widthFactor" : null
           },
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -5603,7 +5687,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -5777,12 +5860,10 @@
                 "top" : 91,
                 "visible" : true,
                 "width" : 34,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -5813,7 +5894,8 @@
                 "constraintsLocked" : true,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
-                "exportEnabled" : false,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -5844,6 +5926,7 @@
                 "radius" : 6.5,
                 "radiusBottomLeft" : 6.5,
                 "radiusBottomRight" : 6.5,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 6.5,
                 "radiusTopRight" : 6.5,
@@ -5876,7 +5959,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -5958,6 +6040,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"3prvs-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(144, 148, 156);font-size:11px;letter-spacing:0.07px;line-height:1.2\"><span data-text=\"true\">Yellow<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 13,
+                      "width" : 35
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -5966,16 +6057,15 @@
                 "top" : 0,
                 "visible" : true,
                 "width" : 35,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               }
             ],
             "clip" : false,
             "constraintsLocked" : false,
             "contrast" : 100,
             "contrastEnabled" : 0,
-            "exportEnabled" : false,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -6006,6 +6096,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -6022,7 +6113,7 @@
             "widthFactor" : null
           },
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -6064,7 +6155,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -6238,12 +6328,10 @@
                 "top" : 91,
                 "visible" : true,
                 "width" : 32,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -6274,7 +6362,8 @@
                 "constraintsLocked" : true,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
-                "exportEnabled" : false,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -6305,6 +6394,7 @@
                 "radius" : 6.5,
                 "radiusBottomLeft" : 6.5,
                 "radiusBottomRight" : 6.5,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 6.5,
                 "radiusTopRight" : 6.5,
@@ -6337,7 +6427,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -6419,6 +6508,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"3prvs-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(144, 148, 156);font-size:11px;letter-spacing:0.07px;line-height:1.2\"><span data-text=\"true\">Orange<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 13,
+                      "width" : 40
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -6427,16 +6525,15 @@
                 "top" : 0,
                 "visible" : true,
                 "width" : 40,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               }
             ],
             "clip" : false,
             "constraintsLocked" : false,
             "contrast" : 100,
             "contrastEnabled" : 0,
-            "exportEnabled" : false,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -6467,6 +6564,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -6483,7 +6581,7 @@
             "widthFactor" : null
           },
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -6525,7 +6623,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -6699,12 +6796,10 @@
                 "top" : 91,
                 "visible" : true,
                 "width" : 32,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -6735,7 +6830,8 @@
                 "constraintsLocked" : true,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
-                "exportEnabled" : false,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -6766,6 +6862,7 @@
                 "radius" : 6.5,
                 "radiusBottomLeft" : 6.5,
                 "radiusBottomRight" : 6.5,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 6.5,
                 "radiusTopRight" : 6.5,
@@ -6798,7 +6895,6 @@
                 "contrast" : 100,
                 "contrastEnabled" : 0,
                 "editable" : false,
-                "exportEnabled" : false,
                 "exportOptions" : [
 
                 ],
@@ -6880,6 +6976,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"3prvs-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(144, 148, 156);font-size:11px;letter-spacing:0.07px;line-height:1.2\"><span data-text=\"true\">Red<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 13,
+                      "width" : 22
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -6888,16 +6993,15 @@
                 "top" : 0,
                 "visible" : true,
                 "width" : 22,
-                "widthFactor" : null,
-                "x" : 10,
-                "y" : -72
+                "widthFactor" : null
               }
             ],
             "clip" : false,
             "constraintsLocked" : false,
             "contrast" : 100,
             "contrastEnabled" : 0,
-            "exportEnabled" : false,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -6928,6 +7032,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -6948,7 +7053,8 @@
         "constraintsLocked" : false,
         "contrast" : 100,
         "contrastEnabled" : 0,
-        "exportEnabled" : false,
+        "deviceType" : null,
+        "exportIncludesBackground" : true,
         "exportOptions" : [
 
         ],
@@ -6979,6 +7085,7 @@
         "radius" : 12,
         "radiusBottomLeft" : 12,
         "radiusBottomRight" : 12,
+        "radiusIsRelative" : false,
         "radiusPerCorner" : false,
         "radiusTopLeft" : 12,
         "radiusTopRight" : 12,
@@ -7011,7 +7118,6 @@
         "contrast" : 100,
         "contrastEnabled" : 0,
         "editable" : false,
-        "exportEnabled" : false,
         "exportOptions" : [
 
         ],
@@ -7081,6 +7187,15 @@
               "type" : "unstyled"
             }
           ],
+          "cached" : {
+            "html" : "<span data-offset-key=\"3prvs-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSDisplay-Bold&quot;, &quot;SFProDisplay-Bold&quot;, &quot;SFUIDisplay-Bold&quot;, &quot;.SFUIDisplay-Bold&quot;, sans-serif;-webkit-text-fill-color:rgb(75, 79, 86);font-size:53px;letter-spacing:0.25px;line-height:1.2\"><span data-text=\"true\">Colors<\/span><\/span>",
+            "os" : "10_13",
+            "size" : {
+              "height" : 63,
+              "width" : 161
+            },
+            "width" : 0
+          },
           "entityMap" : {
 
           }
@@ -7089,13 +7204,11 @@
         "top" : 0,
         "visible" : true,
         "width" : 161,
-        "widthFactor" : null,
-        "x" : 10,
-        "y" : -72
+        "widthFactor" : null
       }
     ],
     "id" : "~YR&{1Ty",
     "parentid" : null
   },
-  "version" : 13
+  "version" : 20
 }

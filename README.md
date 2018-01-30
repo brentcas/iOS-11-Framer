@@ -30,7 +30,7 @@ To open the Framer files, you need to have [Framer][2] installed on your macOS d
 
 Each Framer file has a collection of designed elements, and contains no prototype code. These elements are for the purposes of copying and pasting into your own prototypes, or being used as a design reference.
 
-All files have been opened on Framer v107 and may have issues on other versions of Framer.
+All files have been opened on Framer v109 and may have issues on other versions of Framer.
 
 ## Branches
 
