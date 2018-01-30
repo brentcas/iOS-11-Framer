@@ -19576,11 +19576,11 @@
                     {
                       "data" : {
                         "emptyStyle" : [
-                          "FONT:SFProText-Regular",
                           "LINEHEIGHT:1.2",
                           "SIZE:13",
                           "LETTERSPACING:-0.08",
-                          "COLOR:rgb(153, 153, 153)"
+                          "COLOR:rgb(153, 153, 153)",
+                          "FONT:__SF-UI-Text-Regular__"
                         ]
                       },
                       "depth" : 0,
@@ -19588,11 +19588,6 @@
 
                       ],
                       "inlineStyleRanges" : [
-                        {
-                          "length" : 8,
-                          "offset" : 0,
-                          "style" : "FONT:SFProText-Regular"
-                        },
                         {
                           "length" : 8,
                           "offset" : 0,
@@ -19612,19 +19607,24 @@
                           "length" : 8,
                           "offset" : 0,
                           "style" : "COLOR:rgb(153, 153, 153)"
+                        },
+                        {
+                          "length" : 8,
+                          "offset" : 0,
+                          "style" : "FONT:__SF-UI-Text-Regular__"
                         }
                       ],
                       "key" : "d5c5g",
-                      "text" : "App Name",
+                      "text" : "APP NAME",
                       "type" : "unstyled"
                     }
                   ],
                   "cached" : {
-                    "html" : "<span data-offset-key=\"d5c5g-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(153, 153, 153);font-size:13px;letter-spacing:-0.08px;line-height:1.2\"><span data-text=\"true\">App Name<\/span><\/span>",
+                    "html" : "<span data-offset-key=\"d5c5g-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(153, 153, 153);font-size:13px;letter-spacing:-0.08px;line-height:1.2\"><span data-text=\"true\">APP NAME<\/span><\/span>",
                     "os" : "10_13",
                     "size" : {
                       "height" : 15,
-                      "width" : 65
+                      "width" : 67
                     },
                     "width" : 0
                   },
@@ -19635,7 +19635,7 @@
                 "targetName" : null,
                 "top" : 19,
                 "visible" : true,
-                "width" : 65,
+                "width" : 67,
                 "widthFactor" : null
               },
               {
