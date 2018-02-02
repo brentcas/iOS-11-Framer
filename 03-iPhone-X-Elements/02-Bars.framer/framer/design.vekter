@@ -25,6 +25,86 @@
         ],
         "brightness" : 100,
         "brightnessEnabled" : 0,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "constraintsLocked" : false,
+        "contrast" : 100,
+        "contrastEnabled" : 0,
+        "deviceType" : "apple-iphone-x-space-gray",
+        "exportIncludesBackground" : true,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "#EFEFF4",
+        "fillEnabled" : true,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillType" : "color",
+        "grayscale" : 0,
+        "grayScaleEnabled" : 0,
+        "height" : 812,
+        "heightFactor" : null,
+        "hueRotate" : 0,
+        "hueRotateEnabled" : 0,
+        "id" : "XNQdHMW90",
+        "invert" : 0,
+        "invertEnabled" : 0,
+        "left" : 1790,
+        "locked" : false,
+        "name" : "exampleView",
+        "opacity" : 1,
+        "parentid" : "NwKv)M+y",
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "saturate" : 100,
+        "saturateEnabled" : 0,
+        "sepia" : 0,
+        "sepiaEnabled" : 0,
+        "targetName" : "exampleView",
+        "top" : 129,
+        "visible" : true,
+        "width" : 375,
+        "widthFactor" : null
+      },
+      {
+        "__class" : "FrameNode",
+        "aspectRatioLocked" : false,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "blur" : 12,
+        "blurEnabled" : 0,
+        "blurType" : "layer",
+        "borderBottom" : 1,
+        "borderColor" : "#222",
+        "borderEnabled" : 0,
+        "borderLeft" : 1,
+        "borderPerSide" : false,
+        "borderRight" : 1,
+        "borderStyle" : "solid",
+        "borderTop" : 1,
+        "borderWidth" : 1,
+        "bottom" : null,
+        "boxShadows" : [
+
+        ],
+        "brightness" : 100,
+        "brightnessEnabled" : 0,
         "centerAnchorX" : 0.5,
         "centerAnchorY" : 0.5,
         "children" : [
@@ -167,8 +247,8 @@
                                   "SIZE:17",
                                   "LETTERSPACING:-0.41",
                                   "LINEHEIGHT:1.3",
-                                  "FONT:SFProText-Regular",
-                                  "COLOR:rgb(255, 149, 0)"
+                                  "COLOR:rgb(255, 149, 0)",
+                                  "FONT:__SF-UI-Text-Regular__"
                                 ]
                               },
                               "depth" : 0,
@@ -194,12 +274,12 @@
                                 {
                                   "length" : 12,
                                   "offset" : 0,
-                                  "style" : "FONT:SFProText-Regular"
+                                  "style" : "COLOR:rgb(255, 149, 0)"
                                 },
                                 {
                                   "length" : 12,
                                   "offset" : 0,
-                                  "style" : "COLOR:rgb(255, 149, 0)"
+                                  "style" : "FONT:__SF-UI-Text-Regular__"
                                 }
                               ],
                               "key" : "5u5t",
@@ -208,7 +288,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(255, 149, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Parent Title<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(255, 149, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Parent Title<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 22,
@@ -282,6 +362,8 @@
                         "opacity" : 1,
                         "originalFilename" : "chevronOrange.svg",
                         "parentid" : "y89l3G0n",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -435,6 +517,8 @@
                         "opacity" : 1,
                         "originalFilename" : "navBarIconOrange.svg",
                         "parentid" : "1>C:[STi",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -547,14 +631,7 @@
                     "sepia" : 0,
                     "sepiaEnabled" : 0,
                     "shadows" : [
-                      {
-                        "__class" : "Shadow",
-                        "blur" : 5,
-                        "color" : "rgba(0,0,0,0.25)",
-                        "enabled" : false,
-                        "x" : 0,
-                        "y" : 2
-                      }
+
                     ],
                     "styledText" : {
                       "__class" : "StyledTextDraft",
@@ -562,12 +639,12 @@
                         {
                           "data" : {
                             "emptyStyle" : [
-                              "ALIGN:center",
                               "SIZE:34",
-                              "FONT:SFProDisplay-Bold",
                               "LETTERSPACING:0.41",
                               "LINEHEIGHT:1.2",
-                              "COLOR:rgb(255, 255, 255)"
+                              "COLOR:rgb(255, 255, 255)",
+                              "ALIGN:left",
+                              "FONT:__SF-UI-Display-Bold__"
                             ]
                           },
                           "depth" : 0,
@@ -578,17 +655,7 @@
                             {
                               "length" : 11,
                               "offset" : 0,
-                              "style" : "ALIGN:center"
-                            },
-                            {
-                              "length" : 11,
-                              "offset" : 0,
                               "style" : "SIZE:34"
-                            },
-                            {
-                              "length" : 11,
-                              "offset" : 0,
-                              "style" : "FONT:SFProDisplay-Bold"
                             },
                             {
                               "length" : 11,
@@ -604,6 +671,16 @@
                               "length" : 11,
                               "offset" : 0,
                               "style" : "COLOR:rgb(255, 255, 255)"
+                            },
+                            {
+                              "length" : 11,
+                              "offset" : 0,
+                              "style" : "ALIGN:left"
+                            },
+                            {
+                              "length" : 11,
+                              "offset" : 0,
+                              "style" : "FONT:__SF-UI-Display-Bold__"
                             }
                           ],
                           "key" : "5u5t",
@@ -612,7 +689,7 @@
                         }
                       ],
                       "cached" : {
-                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProDisplay-Bold&quot;, serif;-webkit-text-fill-color:rgb(255, 255, 255);font-size:34px;letter-spacing:0.41px;line-height:1.2\"><span data-text=\"true\">Large Title<\/span><\/span>",
+                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSDisplay-Bold&quot;, &quot;SFProDisplay-Bold&quot;, &quot;SFUIDisplay-Bold&quot;, &quot;.SFUIDisplay-Bold&quot;, sans-serif;-webkit-text-fill-color:rgb(255, 255, 255);font-size:34px;letter-spacing:0.41px;line-height:1.2\"><span data-text=\"true\">Large Title<\/span><\/span>",
                         "os" : "10_13",
                         "size" : {
                           "height" : 40,
@@ -649,16 +726,7 @@
                     "borderWidth" : 1,
                     "bottom" : 16,
                     "boxShadows" : [
-                      {
-                        "__class" : "BoxShadow",
-                        "blur" : 5,
-                        "color" : "rgba(0,0,0,0.25)",
-                        "enabled" : false,
-                        "inset" : false,
-                        "spread" : 0,
-                        "x" : 0,
-                        "y" : 2
-                      }
+
                     ],
                     "brightness" : 100,
                     "brightnessEnabled" : 0,
@@ -684,16 +752,7 @@
                         "borderWidth" : 1,
                         "bottom" : null,
                         "boxShadows" : [
-                          {
-                            "__class" : "BoxShadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "inset" : false,
-                            "spread" : 0,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "brightness" : 100,
                         "brightnessEnabled" : 0,
@@ -730,6 +789,8 @@
                         "opacity" : 1,
                         "originalFilename" : "dictationIcon.svg",
                         "parentid" : "2yHITd#P",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -789,14 +850,7 @@
                         "sepia" : 0,
                         "sepiaEnabled" : 0,
                         "shadows" : [
-                          {
-                            "__class" : "Shadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "styledText" : {
                           "__class" : "StyledTextDraft",
@@ -807,8 +861,8 @@
                                   "SIZE:17",
                                   "LETTERSPACING:-0.41",
                                   "LINEHEIGHT:1.3",
-                                  "FONT:SFProText-Regular",
-                                  "COLOR:rgb(142, 142, 147)"
+                                  "COLOR:rgb(142, 142, 147)",
+                                  "FONT:__SF-UI-Text-Regular__"
                                 ]
                               },
                               "depth" : 0,
@@ -834,12 +888,12 @@
                                 {
                                   "length" : 6,
                                   "offset" : 0,
-                                  "style" : "FONT:SFProText-Regular"
+                                  "style" : "COLOR:rgb(142, 142, 147)"
                                 },
                                 {
                                   "length" : 6,
                                   "offset" : 0,
-                                  "style" : "COLOR:rgb(142, 142, 147)"
+                                  "style" : "FONT:__SF-UI-Text-Regular__"
                                 }
                               ],
                               "key" : "5u5t",
@@ -848,7 +902,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(142, 142, 147);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Search<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(142, 142, 147);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Search<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 22,
@@ -885,16 +939,7 @@
                         "borderWidth" : 1,
                         "bottom" : null,
                         "boxShadows" : [
-                          {
-                            "__class" : "BoxShadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "inset" : false,
-                            "spread" : 0,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "brightness" : 100,
                         "brightnessEnabled" : 0,
@@ -931,6 +976,8 @@
                         "opacity" : 1,
                         "originalFilename" : "searchIcon.svg",
                         "parentid" : "2yHITd#P",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -1085,7 +1132,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 1265,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -1251,6 +1298,8 @@
                         "opacity" : 1,
                         "originalFilename" : "navBarIconOrange.svg",
                         "parentid" : ")DAx5nF4",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -1341,16 +1390,7 @@
                     "borderWidth" : 1,
                     "bottom" : 8,
                     "boxShadows" : [
-                      {
-                        "__class" : "BoxShadow",
-                        "blur" : 5,
-                        "color" : "rgba(0,0,0,0.25)",
-                        "enabled" : false,
-                        "inset" : false,
-                        "spread" : 0,
-                        "x" : 0,
-                        "y" : 2
-                      }
+
                     ],
                     "brightness" : 100,
                     "brightnessEnabled" : 0,
@@ -1376,16 +1416,7 @@
                         "borderWidth" : 1,
                         "bottom" : null,
                         "boxShadows" : [
-                          {
-                            "__class" : "BoxShadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "inset" : false,
-                            "spread" : 0,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "brightness" : 100,
                         "brightnessEnabled" : 0,
@@ -1422,6 +1453,8 @@
                         "opacity" : 1,
                         "originalFilename" : "dictationIcon.svg",
                         "parentid" : "=7y4uZp@",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -1481,14 +1514,7 @@
                         "sepia" : 0,
                         "sepiaEnabled" : 0,
                         "shadows" : [
-                          {
-                            "__class" : "Shadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "styledText" : {
                           "__class" : "StyledTextDraft",
@@ -1499,8 +1525,8 @@
                                   "SIZE:17",
                                   "LETTERSPACING:-0.41",
                                   "LINEHEIGHT:1.3",
-                                  "FONT:SFProText-Regular",
-                                  "COLOR:rgb(142, 142, 147)"
+                                  "COLOR:rgb(142, 142, 147)",
+                                  "FONT:__SF-UI-Text-Regular__"
                                 ]
                               },
                               "depth" : 0,
@@ -1526,12 +1552,12 @@
                                 {
                                   "length" : 6,
                                   "offset" : 0,
-                                  "style" : "FONT:SFProText-Regular"
+                                  "style" : "COLOR:rgb(142, 142, 147)"
                                 },
                                 {
                                   "length" : 6,
                                   "offset" : 0,
-                                  "style" : "COLOR:rgb(142, 142, 147)"
+                                  "style" : "FONT:__SF-UI-Text-Regular__"
                                 }
                               ],
                               "key" : "5u5t",
@@ -1540,7 +1566,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(142, 142, 147);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Search<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(142, 142, 147);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Search<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 22,
@@ -1577,16 +1603,7 @@
                         "borderWidth" : 1,
                         "bottom" : null,
                         "boxShadows" : [
-                          {
-                            "__class" : "BoxShadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "inset" : false,
-                            "spread" : 0,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "brightness" : 100,
                         "brightnessEnabled" : 0,
@@ -1623,6 +1640,8 @@
                         "opacity" : 1,
                         "originalFilename" : "searchIcon.svg",
                         "parentid" : "=7y4uZp@",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -1772,8 +1791,8 @@
                                   "SIZE:17",
                                   "LETTERSPACING:-0.41",
                                   "LINEHEIGHT:1.3",
-                                  "FONT:SFProText-Regular",
-                                  "COLOR:rgb(255, 149, 0)"
+                                  "COLOR:rgb(255, 149, 0)",
+                                  "FONT:__SF-UI-Text-Regular__"
                                 ]
                               },
                               "depth" : 0,
@@ -1799,12 +1818,12 @@
                                 {
                                   "length" : 12,
                                   "offset" : 0,
-                                  "style" : "FONT:SFProText-Regular"
+                                  "style" : "COLOR:rgb(255, 149, 0)"
                                 },
                                 {
                                   "length" : 12,
                                   "offset" : 0,
-                                  "style" : "COLOR:rgb(255, 149, 0)"
+                                  "style" : "FONT:__SF-UI-Text-Regular__"
                                 }
                               ],
                               "key" : "5u5t",
@@ -1813,7 +1832,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(255, 149, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Parent Title<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(255, 149, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Parent Title<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 22,
@@ -1887,6 +1906,8 @@
                         "opacity" : 1,
                         "originalFilename" : "chevronOrange.svg",
                         "parentid" : "hd.Zx{-{",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -1999,14 +2020,7 @@
                     "sepia" : 0,
                     "sepiaEnabled" : 0,
                     "shadows" : [
-                      {
-                        "__class" : "Shadow",
-                        "blur" : 5,
-                        "color" : "rgba(0,0,0,0.25)",
-                        "enabled" : false,
-                        "x" : 0,
-                        "y" : 2
-                      }
+
                     ],
                     "styledText" : {
                       "__class" : "StyledTextDraft",
@@ -2014,12 +2028,12 @@
                         {
                           "data" : {
                             "emptyStyle" : [
-                              "FONT:SFProText-Semibold",
                               "ALIGN:center",
                               "SIZE:17",
                               "LETTERSPACING:-0.41",
                               "LINEHEIGHT:1.3",
-                              "COLOR:rgb(255, 255, 255)"
+                              "COLOR:rgb(255, 255, 255)",
+                              "FONT:__SF-UI-Text-Semibold__"
                             ]
                           },
                           "depth" : 0,
@@ -2027,11 +2041,6 @@
 
                           ],
                           "inlineStyleRanges" : [
-                            {
-                              "length" : 5,
-                              "offset" : 0,
-                              "style" : "FONT:SFProText-Semibold"
-                            },
                             {
                               "length" : 5,
                               "offset" : 0,
@@ -2056,6 +2065,11 @@
                               "length" : 5,
                               "offset" : 0,
                               "style" : "COLOR:rgb(255, 255, 255)"
+                            },
+                            {
+                              "length" : 5,
+                              "offset" : 0,
+                              "style" : "FONT:__SF-UI-Text-Semibold__"
                             }
                           ],
                           "key" : "5u5t",
@@ -2064,7 +2078,7 @@
                         }
                       ],
                       "cached" : {
-                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Semibold&quot;, serif;-webkit-text-fill-color:rgb(255, 255, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Title<\/span><\/span>",
+                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Semibold&quot;, &quot;SFProText-Semibold&quot;, &quot;SFUIText-Semibold&quot;, &quot;.SFUIText-Semibold&quot;, sans-serif;-webkit-text-fill-color:rgb(255, 255, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Title<\/span><\/span>",
                         "os" : "10_13",
                         "size" : {
                           "height" : 22,
@@ -2165,7 +2179,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 1265,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -2268,16 +2282,7 @@
                     "borderWidth" : 1,
                     "bottom" : 8,
                     "boxShadows" : [
-                      {
-                        "__class" : "BoxShadow",
-                        "blur" : 5,
-                        "color" : "rgba(0,0,0,0.25)",
-                        "enabled" : false,
-                        "inset" : false,
-                        "spread" : 0,
-                        "x" : 0,
-                        "y" : 2
-                      }
+
                     ],
                     "brightness" : 100,
                     "brightnessEnabled" : 0,
@@ -2303,16 +2308,7 @@
                         "borderWidth" : 1,
                         "bottom" : null,
                         "boxShadows" : [
-                          {
-                            "__class" : "BoxShadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "inset" : false,
-                            "spread" : 0,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "brightness" : 100,
                         "brightnessEnabled" : 0,
@@ -2349,6 +2345,8 @@
                         "opacity" : 1,
                         "originalFilename" : "dictationIcon.svg",
                         "parentid" : "p@M]`c?D",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -2408,14 +2406,7 @@
                         "sepia" : 0,
                         "sepiaEnabled" : 0,
                         "shadows" : [
-                          {
-                            "__class" : "Shadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "styledText" : {
                           "__class" : "StyledTextDraft",
@@ -2426,8 +2417,8 @@
                                   "SIZE:17",
                                   "LETTERSPACING:-0.41",
                                   "LINEHEIGHT:1.3",
-                                  "FONT:SFProText-Regular",
-                                  "COLOR:rgb(142, 142, 147)"
+                                  "COLOR:rgb(142, 142, 147)",
+                                  "FONT:__SF-UI-Text-Regular__"
                                 ]
                               },
                               "depth" : 0,
@@ -2453,12 +2444,12 @@
                                 {
                                   "length" : 6,
                                   "offset" : 0,
-                                  "style" : "FONT:SFProText-Regular"
+                                  "style" : "COLOR:rgb(142, 142, 147)"
                                 },
                                 {
                                   "length" : 6,
                                   "offset" : 0,
-                                  "style" : "COLOR:rgb(142, 142, 147)"
+                                  "style" : "FONT:__SF-UI-Text-Regular__"
                                 }
                               ],
                               "key" : "5u5t",
@@ -2467,7 +2458,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(142, 142, 147);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Search<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(142, 142, 147);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Search<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 22,
@@ -2504,16 +2495,7 @@
                         "borderWidth" : 1,
                         "bottom" : null,
                         "boxShadows" : [
-                          {
-                            "__class" : "BoxShadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "inset" : false,
-                            "spread" : 0,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "brightness" : 100,
                         "brightnessEnabled" : 0,
@@ -2550,6 +2532,8 @@
                         "opacity" : 1,
                         "originalFilename" : "searchIcon.svg",
                         "parentid" : "p@M]`c?D",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -2704,7 +2688,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 1265,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -2807,16 +2791,7 @@
                     "borderWidth" : 1,
                     "bottom" : 16,
                     "boxShadows" : [
-                      {
-                        "__class" : "BoxShadow",
-                        "blur" : 5,
-                        "color" : "rgba(0,0,0,0.25)",
-                        "enabled" : false,
-                        "inset" : false,
-                        "spread" : 0,
-                        "x" : 0,
-                        "y" : 2
-                      }
+
                     ],
                     "brightness" : 100,
                     "brightnessEnabled" : 0,
@@ -2842,16 +2817,7 @@
                         "borderWidth" : 1,
                         "bottom" : null,
                         "boxShadows" : [
-                          {
-                            "__class" : "BoxShadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "inset" : false,
-                            "spread" : 0,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "brightness" : 100,
                         "brightnessEnabled" : 0,
@@ -2888,6 +2854,8 @@
                         "opacity" : 1,
                         "originalFilename" : "dictationIcon.svg",
                         "parentid" : "RHb|d4pV",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -2947,14 +2915,7 @@
                         "sepia" : 0,
                         "sepiaEnabled" : 0,
                         "shadows" : [
-                          {
-                            "__class" : "Shadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "styledText" : {
                           "__class" : "StyledTextDraft",
@@ -2965,8 +2926,8 @@
                                   "SIZE:17",
                                   "LETTERSPACING:-0.41",
                                   "LINEHEIGHT:1.3",
-                                  "FONT:SFProText-Regular",
-                                  "COLOR:rgb(142, 142, 147)"
+                                  "COLOR:rgb(142, 142, 147)",
+                                  "FONT:__SF-UI-Text-Regular__"
                                 ]
                               },
                               "depth" : 0,
@@ -2992,12 +2953,12 @@
                                 {
                                   "length" : 6,
                                   "offset" : 0,
-                                  "style" : "FONT:SFProText-Regular"
+                                  "style" : "COLOR:rgb(142, 142, 147)"
                                 },
                                 {
                                   "length" : 6,
                                   "offset" : 0,
-                                  "style" : "COLOR:rgb(142, 142, 147)"
+                                  "style" : "FONT:__SF-UI-Text-Regular__"
                                 }
                               ],
                               "key" : "5u5t",
@@ -3006,7 +2967,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(142, 142, 147);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Search<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(142, 142, 147);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Search<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 22,
@@ -3043,16 +3004,7 @@
                         "borderWidth" : 1,
                         "bottom" : null,
                         "boxShadows" : [
-                          {
-                            "__class" : "BoxShadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "inset" : false,
-                            "spread" : 0,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "brightness" : 100,
                         "brightnessEnabled" : 0,
@@ -3089,6 +3041,8 @@
                         "opacity" : 1,
                         "originalFilename" : "searchIcon.svg",
                         "parentid" : "RHb|d4pV",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -3239,7 +3193,7 @@
                                   "COLOR:rgb(0, 122, 255)",
                                   "LETTERSPACING:-0.41",
                                   "LINEHEIGHT:1.3",
-                                  "FONT:SFProText-Regular"
+                                  "FONT:__SF-UI-Text-Regular__"
                                 ]
                               },
                               "depth" : 0,
@@ -3270,7 +3224,7 @@
                                 {
                                   "length" : 12,
                                   "offset" : 0,
-                                  "style" : "FONT:SFProText-Regular"
+                                  "style" : "FONT:__SF-UI-Text-Regular__"
                                 }
                               ],
                               "key" : "5u5t",
@@ -3279,7 +3233,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(0, 122, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Parent Title<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 122, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Parent Title<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 22,
@@ -3353,6 +3307,8 @@
                         "opacity" : 1,
                         "originalFilename" : "chevronBlue.svg",
                         "parentid" : "MJJtD@8N",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -3465,14 +3421,7 @@
                     "sepia" : 0,
                     "sepiaEnabled" : 0,
                     "shadows" : [
-                      {
-                        "__class" : "Shadow",
-                        "blur" : 5,
-                        "color" : "rgba(0,0,0,0.25)",
-                        "enabled" : false,
-                        "x" : 0,
-                        "y" : 2
-                      }
+
                     ],
                     "styledText" : {
                       "__class" : "StyledTextDraft",
@@ -3481,11 +3430,11 @@
                           "data" : {
                             "emptyStyle" : [
                               "COLOR:#000000",
-                              "ALIGN:center",
                               "SIZE:34",
-                              "FONT:SFProDisplay-Bold",
                               "LETTERSPACING:0.41",
-                              "LINEHEIGHT:1.2"
+                              "LINEHEIGHT:1.2",
+                              "FONT:__SF-UI-Display-Bold__",
+                              "ALIGN:left"
                             ]
                           },
                           "depth" : 0,
@@ -3501,17 +3450,7 @@
                             {
                               "length" : 11,
                               "offset" : 0,
-                              "style" : "ALIGN:center"
-                            },
-                            {
-                              "length" : 11,
-                              "offset" : 0,
                               "style" : "SIZE:34"
-                            },
-                            {
-                              "length" : 11,
-                              "offset" : 0,
-                              "style" : "FONT:SFProDisplay-Bold"
                             },
                             {
                               "length" : 11,
@@ -3522,6 +3461,16 @@
                               "length" : 11,
                               "offset" : 0,
                               "style" : "LINEHEIGHT:1.2"
+                            },
+                            {
+                              "length" : 11,
+                              "offset" : 0,
+                              "style" : "FONT:__SF-UI-Display-Bold__"
+                            },
+                            {
+                              "length" : 11,
+                              "offset" : 0,
+                              "style" : "ALIGN:left"
                             }
                           ],
                           "key" : "5u5t",
@@ -3530,7 +3479,7 @@
                         }
                       ],
                       "cached" : {
-                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProDisplay-Bold&quot;, serif;-webkit-text-fill-color:#000000;font-size:34px;letter-spacing:0.41px;line-height:1.2\"><span data-text=\"true\">Large Title<\/span><\/span>",
+                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSDisplay-Bold&quot;, &quot;SFProDisplay-Bold&quot;, &quot;SFUIDisplay-Bold&quot;, &quot;.SFUIDisplay-Bold&quot;, sans-serif;-webkit-text-fill-color:#000000;font-size:34px;letter-spacing:0.41px;line-height:1.2\"><span data-text=\"true\">Large Title<\/span><\/span>",
                         "os" : "10_13",
                         "size" : {
                           "height" : 40,
@@ -3630,6 +3579,8 @@
                         "opacity" : 1,
                         "originalFilename" : "navBarIconBlue.svg",
                         "parentid" : "m~rd*1R2",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -3784,7 +3735,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 870,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -3887,16 +3838,7 @@
                     "borderWidth" : 1,
                     "bottom" : 8,
                     "boxShadows" : [
-                      {
-                        "__class" : "BoxShadow",
-                        "blur" : 5,
-                        "color" : "rgba(0,0,0,0.25)",
-                        "enabled" : false,
-                        "inset" : false,
-                        "spread" : 0,
-                        "x" : 0,
-                        "y" : 2
-                      }
+
                     ],
                     "brightness" : 100,
                     "brightnessEnabled" : 0,
@@ -3922,16 +3864,7 @@
                         "borderWidth" : 1,
                         "bottom" : null,
                         "boxShadows" : [
-                          {
-                            "__class" : "BoxShadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "inset" : false,
-                            "spread" : 0,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "brightness" : 100,
                         "brightnessEnabled" : 0,
@@ -3968,6 +3901,8 @@
                         "opacity" : 1,
                         "originalFilename" : "dictationIcon.svg",
                         "parentid" : "2*yEcg#2",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -4027,14 +3962,7 @@
                         "sepia" : 0,
                         "sepiaEnabled" : 0,
                         "shadows" : [
-                          {
-                            "__class" : "Shadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "styledText" : {
                           "__class" : "StyledTextDraft",
@@ -4045,8 +3973,8 @@
                                   "SIZE:17",
                                   "LETTERSPACING:-0.41",
                                   "LINEHEIGHT:1.3",
-                                  "FONT:SFProText-Regular",
-                                  "COLOR:rgb(142, 142, 147)"
+                                  "COLOR:rgb(142, 142, 147)",
+                                  "FONT:__SF-UI-Text-Regular__"
                                 ]
                               },
                               "depth" : 0,
@@ -4072,12 +4000,12 @@
                                 {
                                   "length" : 6,
                                   "offset" : 0,
-                                  "style" : "FONT:SFProText-Regular"
+                                  "style" : "COLOR:rgb(142, 142, 147)"
                                 },
                                 {
                                   "length" : 6,
                                   "offset" : 0,
-                                  "style" : "COLOR:rgb(142, 142, 147)"
+                                  "style" : "FONT:__SF-UI-Text-Regular__"
                                 }
                               ],
                               "key" : "5u5t",
@@ -4086,7 +4014,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(142, 142, 147);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Search<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(142, 142, 147);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Search<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 22,
@@ -4123,16 +4051,7 @@
                         "borderWidth" : 1,
                         "bottom" : null,
                         "boxShadows" : [
-                          {
-                            "__class" : "BoxShadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "inset" : false,
-                            "spread" : 0,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "brightness" : 100,
                         "brightnessEnabled" : 0,
@@ -4169,6 +4088,8 @@
                         "opacity" : 1,
                         "originalFilename" : "searchIcon.svg",
                         "parentid" : "2*yEcg#2",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -4319,7 +4240,7 @@
                                   "COLOR:rgb(0, 122, 255)",
                                   "LETTERSPACING:-0.41",
                                   "LINEHEIGHT:1.3",
-                                  "FONT:SFProText-Regular"
+                                  "FONT:__SF-UI-Text-Regular__"
                                 ]
                               },
                               "depth" : 0,
@@ -4350,7 +4271,7 @@
                                 {
                                   "length" : 12,
                                   "offset" : 0,
-                                  "style" : "FONT:SFProText-Regular"
+                                  "style" : "FONT:__SF-UI-Text-Regular__"
                                 }
                               ],
                               "key" : "5u5t",
@@ -4359,7 +4280,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(0, 122, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Parent Title<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 122, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Parent Title<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 22,
@@ -4433,6 +4354,8 @@
                         "opacity" : 1,
                         "originalFilename" : "chevronBlue.svg",
                         "parentid" : "_AUJX3#*",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -4545,14 +4468,7 @@
                     "sepia" : 0,
                     "sepiaEnabled" : 0,
                     "shadows" : [
-                      {
-                        "__class" : "Shadow",
-                        "blur" : 5,
-                        "color" : "rgba(0,0,0,0.25)",
-                        "enabled" : false,
-                        "x" : 0,
-                        "y" : 2
-                      }
+
                     ],
                     "styledText" : {
                       "__class" : "StyledTextDraft",
@@ -4561,11 +4477,11 @@
                           "data" : {
                             "emptyStyle" : [
                               "COLOR:#000000",
-                              "FONT:SFProText-Semibold",
                               "ALIGN:center",
                               "SIZE:17",
                               "LETTERSPACING:-0.41",
-                              "LINEHEIGHT:1.3"
+                              "LINEHEIGHT:1.3",
+                              "FONT:__SF-UI-Text-Semibold__"
                             ]
                           },
                           "depth" : 0,
@@ -4577,11 +4493,6 @@
                               "length" : 5,
                               "offset" : 0,
                               "style" : "COLOR:#000000"
-                            },
-                            {
-                              "length" : 5,
-                              "offset" : 0,
-                              "style" : "FONT:SFProText-Semibold"
                             },
                             {
                               "length" : 5,
@@ -4602,6 +4513,11 @@
                               "length" : 5,
                               "offset" : 0,
                               "style" : "LINEHEIGHT:1.3"
+                            },
+                            {
+                              "length" : 5,
+                              "offset" : 0,
+                              "style" : "FONT:__SF-UI-Text-Semibold__"
                             }
                           ],
                           "key" : "5u5t",
@@ -4610,7 +4526,7 @@
                         }
                       ],
                       "cached" : {
-                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Semibold&quot;, serif;-webkit-text-fill-color:#000000;font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Title<\/span><\/span>",
+                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Semibold&quot;, &quot;SFProText-Semibold&quot;, &quot;SFUIText-Semibold&quot;, &quot;.SFUIText-Semibold&quot;, sans-serif;-webkit-text-fill-color:#000000;font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Title<\/span><\/span>",
                         "os" : "10_13",
                         "size" : {
                           "height" : 22,
@@ -4710,6 +4626,8 @@
                         "opacity" : 1,
                         "originalFilename" : "navBarIconBlue.svg",
                         "parentid" : "a>l#JXWs",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -4864,7 +4782,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 870,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -4967,16 +4885,7 @@
                     "borderWidth" : 1,
                     "bottom" : 8,
                     "boxShadows" : [
-                      {
-                        "__class" : "BoxShadow",
-                        "blur" : 5,
-                        "color" : "rgba(0,0,0,0.25)",
-                        "enabled" : false,
-                        "inset" : false,
-                        "spread" : 0,
-                        "x" : 0,
-                        "y" : 2
-                      }
+
                     ],
                     "brightness" : 100,
                     "brightnessEnabled" : 0,
@@ -5002,16 +4911,7 @@
                         "borderWidth" : 1,
                         "bottom" : null,
                         "boxShadows" : [
-                          {
-                            "__class" : "BoxShadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "inset" : false,
-                            "spread" : 0,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "brightness" : 100,
                         "brightnessEnabled" : 0,
@@ -5048,6 +4948,8 @@
                         "opacity" : 1,
                         "originalFilename" : "dictationIcon.svg",
                         "parentid" : "p;|fa@(%",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -5107,14 +5009,7 @@
                         "sepia" : 0,
                         "sepiaEnabled" : 0,
                         "shadows" : [
-                          {
-                            "__class" : "Shadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "styledText" : {
                           "__class" : "StyledTextDraft",
@@ -5125,8 +5020,8 @@
                                   "SIZE:17",
                                   "LETTERSPACING:-0.41",
                                   "LINEHEIGHT:1.3",
-                                  "FONT:SFProText-Regular",
-                                  "COLOR:rgb(142, 142, 147)"
+                                  "COLOR:rgb(142, 142, 147)",
+                                  "FONT:__SF-UI-Text-Regular__"
                                 ]
                               },
                               "depth" : 0,
@@ -5152,12 +5047,12 @@
                                 {
                                   "length" : 6,
                                   "offset" : 0,
-                                  "style" : "FONT:SFProText-Regular"
+                                  "style" : "COLOR:rgb(142, 142, 147)"
                                 },
                                 {
                                   "length" : 6,
                                   "offset" : 0,
-                                  "style" : "COLOR:rgb(142, 142, 147)"
+                                  "style" : "FONT:__SF-UI-Text-Regular__"
                                 }
                               ],
                               "key" : "5u5t",
@@ -5166,7 +5061,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(142, 142, 147);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Search<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(142, 142, 147);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Search<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 22,
@@ -5203,16 +5098,7 @@
                         "borderWidth" : 1,
                         "bottom" : null,
                         "boxShadows" : [
-                          {
-                            "__class" : "BoxShadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "inset" : false,
-                            "spread" : 0,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "brightness" : 100,
                         "brightnessEnabled" : 0,
@@ -5249,6 +5135,8 @@
                         "opacity" : 1,
                         "originalFilename" : "searchIcon.svg",
                         "parentid" : "p;|fa@(%",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -5403,7 +5291,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 870,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -5791,6 +5679,8 @@
                         "opacity" : 1,
                         "originalFilename" : "chevronOrange.svg",
                         "parentid" : "Jg1Wa(kD",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -5903,14 +5793,7 @@
                     "sepia" : 0,
                     "sepiaEnabled" : 0,
                     "shadows" : [
-                      {
-                        "__class" : "Shadow",
-                        "blur" : 5,
-                        "color" : "rgba(0,0,0,0.25)",
-                        "enabled" : false,
-                        "x" : 0,
-                        "y" : 2
-                      }
+
                     ],
                     "styledText" : {
                       "__class" : "StyledTextDraft",
@@ -6068,6 +5951,8 @@
                         "opacity" : 1,
                         "originalFilename" : "navBarIconOrange.svg",
                         "parentid" : "}32<$q}3",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -6222,7 +6107,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 1265,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -6347,14 +6232,7 @@
                     "sepia" : 0,
                     "sepiaEnabled" : 0,
                     "shadows" : [
-                      {
-                        "__class" : "Shadow",
-                        "blur" : 5,
-                        "color" : "rgba(0,0,0,0.25)",
-                        "enabled" : false,
-                        "x" : 0,
-                        "y" : 2
-                      }
+
                     ],
                     "styledText" : {
                       "__class" : "StyledTextDraft",
@@ -6365,9 +6243,9 @@
                               "SIZE:17",
                               "LETTERSPACING:-0.41",
                               "LINEHEIGHT:1.3",
-                              "FONT:SFProText-Regular",
                               "ALIGN:left",
-                              "COLOR:rgb(255, 149, 0)"
+                              "COLOR:rgb(255, 149, 0)",
+                              "FONT:__SF-UI-Text-Regular__"
                             ]
                           },
                           "depth" : 0,
@@ -6393,17 +6271,17 @@
                             {
                               "length" : 6,
                               "offset" : 0,
-                              "style" : "FONT:SFProText-Regular"
-                            },
-                            {
-                              "length" : 6,
-                              "offset" : 0,
                               "style" : "ALIGN:left"
                             },
                             {
                               "length" : 6,
                               "offset" : 0,
                               "style" : "COLOR:rgb(255, 149, 0)"
+                            },
+                            {
+                              "length" : 6,
+                              "offset" : 0,
+                              "style" : "FONT:__SF-UI-Text-Regular__"
                             }
                           ],
                           "key" : "5u5t",
@@ -6412,7 +6290,7 @@
                         }
                       ],
                       "cached" : {
-                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(255, 149, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Cancel<\/span><\/span>",
+                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(255, 149, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Cancel<\/span><\/span>",
                         "os" : "10_13",
                         "size" : {
                           "height" : 22,
@@ -6471,14 +6349,7 @@
                     "sepia" : 0,
                     "sepiaEnabled" : 0,
                     "shadows" : [
-                      {
-                        "__class" : "Shadow",
-                        "blur" : 5,
-                        "color" : "rgba(0,0,0,0.25)",
-                        "enabled" : false,
-                        "x" : 0,
-                        "y" : 2
-                      }
+
                     ],
                     "styledText" : {
                       "__class" : "StyledTextDraft",
@@ -6486,12 +6357,12 @@
                         {
                           "data" : {
                             "emptyStyle" : [
-                              "FONT:SFProText-Semibold",
                               "ALIGN:center",
                               "SIZE:17",
                               "LETTERSPACING:-0.41",
                               "LINEHEIGHT:1.3",
-                              "COLOR:rgb(255, 255, 255)"
+                              "COLOR:rgb(255, 255, 255)",
+                              "FONT:__SF-UI-Text-Semibold__"
                             ]
                           },
                           "depth" : 0,
@@ -6499,11 +6370,6 @@
 
                           ],
                           "inlineStyleRanges" : [
-                            {
-                              "length" : 15,
-                              "offset" : 0,
-                              "style" : "FONT:SFProText-Semibold"
-                            },
                             {
                               "length" : 15,
                               "offset" : 0,
@@ -6528,6 +6394,11 @@
                               "length" : 15,
                               "offset" : 0,
                               "style" : "COLOR:rgb(255, 255, 255)"
+                            },
+                            {
+                              "length" : 15,
+                              "offset" : 0,
+                              "style" : "FONT:__SF-UI-Text-Semibold__"
                             }
                           ],
                           "key" : "5u5t",
@@ -6536,7 +6407,7 @@
                         }
                       ],
                       "cached" : {
-                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Semibold&quot;, serif;-webkit-text-fill-color:rgb(255, 255, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Edit Mode Title<\/span><\/span>",
+                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Semibold&quot;, &quot;SFProText-Semibold&quot;, &quot;SFUIText-Semibold&quot;, &quot;.SFUIText-Semibold&quot;, sans-serif;-webkit-text-fill-color:rgb(255, 255, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Edit Mode Title<\/span><\/span>",
                         "os" : "10_13",
                         "size" : {
                           "height" : 22,
@@ -6595,14 +6466,7 @@
                     "sepia" : 0,
                     "sepiaEnabled" : 0,
                     "shadows" : [
-                      {
-                        "__class" : "Shadow",
-                        "blur" : 5,
-                        "color" : "rgba(0,0,0,0.25)",
-                        "enabled" : false,
-                        "x" : 0,
-                        "y" : 2
-                      }
+
                     ],
                     "styledText" : {
                       "__class" : "StyledTextDraft",
@@ -6614,8 +6478,8 @@
                               "LETTERSPACING:-0.41",
                               "LINEHEIGHT:1.3",
                               "ALIGN:right",
-                              "FONT:SFProText-Semibold",
-                              "COLOR:rgb(255, 149, 0)"
+                              "COLOR:rgb(255, 149, 0)",
+                              "FONT:__SF-UI-Text-Semibold__"
                             ]
                           },
                           "depth" : 0,
@@ -6646,12 +6510,12 @@
                             {
                               "length" : 4,
                               "offset" : 0,
-                              "style" : "FONT:SFProText-Semibold"
+                              "style" : "COLOR:rgb(255, 149, 0)"
                             },
                             {
                               "length" : 4,
                               "offset" : 0,
-                              "style" : "COLOR:rgb(255, 149, 0)"
+                              "style" : "FONT:__SF-UI-Text-Semibold__"
                             }
                           ],
                           "key" : "5u5t",
@@ -6660,7 +6524,7 @@
                         }
                       ],
                       "cached" : {
-                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Semibold&quot;, serif;-webkit-text-fill-color:rgb(255, 149, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Done<\/span><\/span>",
+                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Semibold&quot;, &quot;SFProText-Semibold&quot;, &quot;SFUIText-Semibold&quot;, &quot;.SFUIText-Semibold&quot;, sans-serif;-webkit-text-fill-color:rgb(255, 149, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Done<\/span><\/span>",
                         "os" : "10_13",
                         "size" : {
                           "height" : 22,
@@ -6761,7 +6625,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 1265,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -6927,6 +6791,8 @@
                         "opacity" : 1,
                         "originalFilename" : "navBarIconOrange.svg",
                         "parentid" : "C^Lf+]zM",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -7039,14 +6905,7 @@
                     "sepia" : 0,
                     "sepiaEnabled" : 0,
                     "shadows" : [
-                      {
-                        "__class" : "Shadow",
-                        "blur" : 5,
-                        "color" : "rgba(0,0,0,0.25)",
-                        "enabled" : false,
-                        "x" : 0,
-                        "y" : 2
-                      }
+
                     ],
                     "styledText" : {
                       "__class" : "StyledTextDraft",
@@ -7054,12 +6913,12 @@
                         {
                           "data" : {
                             "emptyStyle" : [
-                              "FONT:SFProText-Semibold",
                               "ALIGN:center",
                               "SIZE:17",
                               "LETTERSPACING:-0.41",
                               "LINEHEIGHT:1.3",
-                              "COLOR:rgb(255, 255, 255)"
+                              "COLOR:rgb(255, 255, 255)",
+                              "FONT:__SF-UI-Text-Semibold__"
                             ]
                           },
                           "depth" : 0,
@@ -7067,11 +6926,6 @@
 
                           ],
                           "inlineStyleRanges" : [
-                            {
-                              "length" : 5,
-                              "offset" : 0,
-                              "style" : "FONT:SFProText-Semibold"
-                            },
                             {
                               "length" : 5,
                               "offset" : 0,
@@ -7096,6 +6950,11 @@
                               "length" : 5,
                               "offset" : 0,
                               "style" : "COLOR:rgb(255, 255, 255)"
+                            },
+                            {
+                              "length" : 5,
+                              "offset" : 0,
+                              "style" : "FONT:__SF-UI-Text-Semibold__"
                             }
                           ],
                           "key" : "5u5t",
@@ -7104,7 +6963,7 @@
                         }
                       ],
                       "cached" : {
-                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Semibold&quot;, serif;-webkit-text-fill-color:rgb(255, 255, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Title<\/span><\/span>",
+                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Semibold&quot;, &quot;SFProText-Semibold&quot;, &quot;SFUIText-Semibold&quot;, &quot;.SFUIText-Semibold&quot;, sans-serif;-webkit-text-fill-color:rgb(255, 255, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Title<\/span><\/span>",
                         "os" : "10_13",
                         "size" : {
                           "height" : 22,
@@ -7163,14 +7022,7 @@
                     "sepia" : 0,
                     "sepiaEnabled" : 0,
                     "shadows" : [
-                      {
-                        "__class" : "Shadow",
-                        "blur" : 5,
-                        "color" : "rgba(0,0,0,0.25)",
-                        "enabled" : false,
-                        "x" : 0,
-                        "y" : 2
-                      }
+
                     ],
                     "styledText" : {
                       "__class" : "StyledTextDraft",
@@ -7181,9 +7033,9 @@
                               "SIZE:17",
                               "LETTERSPACING:-0.41",
                               "LINEHEIGHT:1.3",
-                              "FONT:SFProText-Regular",
                               "ALIGN:right",
-                              "COLOR:rgb(255, 149, 0)"
+                              "COLOR:rgb(255, 149, 0)",
+                              "FONT:__SF-UI-Text-Regular__"
                             ]
                           },
                           "depth" : 0,
@@ -7209,17 +7061,17 @@
                             {
                               "length" : 4,
                               "offset" : 0,
-                              "style" : "FONT:SFProText-Regular"
-                            },
-                            {
-                              "length" : 4,
-                              "offset" : 0,
                               "style" : "ALIGN:right"
                             },
                             {
                               "length" : 4,
                               "offset" : 0,
                               "style" : "COLOR:rgb(255, 149, 0)"
+                            },
+                            {
+                              "length" : 4,
+                              "offset" : 0,
+                              "style" : "FONT:__SF-UI-Text-Regular__"
                             }
                           ],
                           "key" : "5u5t",
@@ -7228,7 +7080,7 @@
                         }
                       ],
                       "cached" : {
-                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(255, 149, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Edit<\/span><\/span>",
+                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(255, 149, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Edit<\/span><\/span>",
                         "os" : "10_13",
                         "size" : {
                           "height" : 22,
@@ -7329,7 +7181,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 1265,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -7491,8 +7343,8 @@
                                   "SIZE:17",
                                   "LETTERSPACING:-0.41",
                                   "LINEHEIGHT:1.3",
-                                  "FONT:SFProText-Regular",
-                                  "COLOR:rgb(255, 149, 0)"
+                                  "COLOR:rgb(255, 149, 0)",
+                                  "FONT:__SF-UI-Text-Regular__"
                                 ]
                               },
                               "depth" : 0,
@@ -7518,12 +7370,12 @@
                                 {
                                   "length" : 12,
                                   "offset" : 0,
-                                  "style" : "FONT:SFProText-Regular"
+                                  "style" : "COLOR:rgb(255, 149, 0)"
                                 },
                                 {
                                   "length" : 12,
                                   "offset" : 0,
-                                  "style" : "COLOR:rgb(255, 149, 0)"
+                                  "style" : "FONT:__SF-UI-Text-Regular__"
                                 }
                               ],
                               "key" : "5u5t",
@@ -7532,7 +7384,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(255, 149, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Parent Title<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(255, 149, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Parent Title<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 22,
@@ -7606,6 +7458,8 @@
                         "opacity" : 1,
                         "originalFilename" : "chevronOrange.svg",
                         "parentid" : "X{A\/tNFZ",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -7718,14 +7572,7 @@
                     "sepia" : 0,
                     "sepiaEnabled" : 0,
                     "shadows" : [
-                      {
-                        "__class" : "Shadow",
-                        "blur" : 5,
-                        "color" : "rgba(0,0,0,0.25)",
-                        "enabled" : false,
-                        "x" : 0,
-                        "y" : 2
-                      }
+
                     ],
                     "styledText" : {
                       "__class" : "StyledTextDraft",
@@ -7733,12 +7580,12 @@
                         {
                           "data" : {
                             "emptyStyle" : [
-                              "FONT:SFProText-Semibold",
                               "ALIGN:center",
                               "SIZE:17",
                               "LETTERSPACING:-0.41",
                               "LINEHEIGHT:1.3",
-                              "COLOR:rgb(255, 255, 255)"
+                              "COLOR:rgb(255, 255, 255)",
+                              "FONT:__SF-UI-Text-Semibold__"
                             ]
                           },
                           "depth" : 0,
@@ -7746,11 +7593,6 @@
 
                           ],
                           "inlineStyleRanges" : [
-                            {
-                              "length" : 5,
-                              "offset" : 0,
-                              "style" : "FONT:SFProText-Semibold"
-                            },
                             {
                               "length" : 5,
                               "offset" : 0,
@@ -7775,6 +7617,11 @@
                               "length" : 5,
                               "offset" : 0,
                               "style" : "COLOR:rgb(255, 255, 255)"
+                            },
+                            {
+                              "length" : 5,
+                              "offset" : 0,
+                              "style" : "FONT:__SF-UI-Text-Semibold__"
                             }
                           ],
                           "key" : "5u5t",
@@ -7783,7 +7630,7 @@
                         }
                       ],
                       "cached" : {
-                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Semibold&quot;, serif;-webkit-text-fill-color:rgb(255, 255, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Title<\/span><\/span>",
+                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Semibold&quot;, &quot;SFProText-Semibold&quot;, &quot;SFUIText-Semibold&quot;, &quot;.SFUIText-Semibold&quot;, sans-serif;-webkit-text-fill-color:rgb(255, 255, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Title<\/span><\/span>",
                         "os" : "10_13",
                         "size" : {
                           "height" : 22,
@@ -7883,6 +7730,8 @@
                         "opacity" : 1,
                         "originalFilename" : "navBarIconOrange.svg",
                         "parentid" : "(QxAX(X>",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -8037,7 +7886,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 1265,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -8200,7 +8049,7 @@
                                   "COLOR:rgb(0, 122, 255)",
                                   "LETTERSPACING:-0.41",
                                   "LINEHEIGHT:1.3",
-                                  "FONT:SFProText-Regular"
+                                  "FONT:__SF-UI-Text-Regular__"
                                 ]
                               },
                               "depth" : 0,
@@ -8231,7 +8080,7 @@
                                 {
                                   "length" : 12,
                                   "offset" : 0,
-                                  "style" : "FONT:SFProText-Regular"
+                                  "style" : "FONT:__SF-UI-Text-Regular__"
                                 }
                               ],
                               "key" : "5u5t",
@@ -8240,7 +8089,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(0, 122, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Parent Title<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 122, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Parent Title<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 22,
@@ -8314,6 +8163,8 @@
                         "opacity" : 1,
                         "originalFilename" : "chevronBlue.svg",
                         "parentid" : "g&~eS~jx",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -8437,9 +8288,9 @@
                               "COLOR:#000000",
                               "ALIGN:center",
                               "SIZE:34",
-                              "FONT:SFProDisplay-Bold",
                               "LETTERSPACING:0.41",
-                              "LINEHEIGHT:1.2"
+                              "LINEHEIGHT:1.2",
+                              "FONT:__SF-UI-Display-Bold__"
                             ]
                           },
                           "depth" : 0,
@@ -8465,17 +8316,17 @@
                             {
                               "length" : 11,
                               "offset" : 0,
-                              "style" : "FONT:SFProDisplay-Bold"
-                            },
-                            {
-                              "length" : 11,
-                              "offset" : 0,
                               "style" : "LETTERSPACING:0.41"
                             },
                             {
                               "length" : 11,
                               "offset" : 0,
                               "style" : "LINEHEIGHT:1.2"
+                            },
+                            {
+                              "length" : 11,
+                              "offset" : 0,
+                              "style" : "FONT:__SF-UI-Display-Bold__"
                             }
                           ],
                           "key" : "5u5t",
@@ -8484,7 +8335,7 @@
                         }
                       ],
                       "cached" : {
-                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProDisplay-Bold&quot;, serif;-webkit-text-fill-color:#000000;font-size:34px;letter-spacing:0.41px;line-height:1.2\"><span data-text=\"true\">Large Title<\/span><\/span>",
+                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSDisplay-Bold&quot;, &quot;SFProDisplay-Bold&quot;, &quot;SFUIDisplay-Bold&quot;, &quot;.SFUIDisplay-Bold&quot;, sans-serif;-webkit-text-fill-color:#000000;font-size:34px;letter-spacing:0.41px;line-height:1.2\"><span data-text=\"true\">Large Title<\/span><\/span>",
                         "os" : "10_13",
                         "size" : {
                           "height" : 40,
@@ -8584,6 +8435,8 @@
                         "opacity" : 1,
                         "originalFilename" : "navBarIconBlue.svg",
                         "parentid" : "(VVb[-nQ",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -8738,7 +8591,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 870,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -8876,7 +8729,7 @@
                               "LETTERSPACING:-0.41",
                               "LINEHEIGHT:1.3",
                               "ALIGN:right",
-                              "FONT:SFProText-Semibold"
+                              "FONT:__SF-UI-Text-Semibold__"
                             ]
                           },
                           "depth" : 0,
@@ -8912,7 +8765,7 @@
                             {
                               "length" : 4,
                               "offset" : 0,
-                              "style" : "FONT:SFProText-Semibold"
+                              "style" : "FONT:__SF-UI-Text-Semibold__"
                             }
                           ],
                           "key" : "5u5t",
@@ -8921,7 +8774,7 @@
                         }
                       ],
                       "cached" : {
-                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Semibold&quot;, serif;-webkit-text-fill-color:rgb(0, 122, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Done<\/span><\/span>",
+                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Semibold&quot;, &quot;SFProText-Semibold&quot;, &quot;SFUIText-Semibold&quot;, &quot;.SFUIText-Semibold&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 122, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Done<\/span><\/span>",
                         "os" : "10_13",
                         "size" : {
                           "height" : 22,
@@ -8992,8 +8845,8 @@
                               "COLOR:rgb(0, 122, 255)",
                               "LETTERSPACING:-0.41",
                               "LINEHEIGHT:1.3",
-                              "FONT:SFProText-Regular",
-                              "ALIGN:left"
+                              "ALIGN:left",
+                              "FONT:__SF-UI-Text-Regular__"
                             ]
                           },
                           "depth" : 0,
@@ -9024,12 +8877,12 @@
                             {
                               "length" : 6,
                               "offset" : 0,
-                              "style" : "FONT:SFProText-Regular"
+                              "style" : "ALIGN:left"
                             },
                             {
                               "length" : 6,
                               "offset" : 0,
-                              "style" : "ALIGN:left"
+                              "style" : "FONT:__SF-UI-Text-Regular__"
                             }
                           ],
                           "key" : "5u5t",
@@ -9038,7 +8891,7 @@
                         }
                       ],
                       "cached" : {
-                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(0, 122, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Cancel<\/span><\/span>",
+                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 122, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Cancel<\/span><\/span>",
                         "os" : "10_13",
                         "size" : {
                           "height" : 22,
@@ -9106,11 +8959,11 @@
                           "data" : {
                             "emptyStyle" : [
                               "COLOR:#000000",
-                              "FONT:SFProText-Semibold",
                               "ALIGN:center",
                               "SIZE:17",
                               "LETTERSPACING:-0.41",
-                              "LINEHEIGHT:1.3"
+                              "LINEHEIGHT:1.3",
+                              "FONT:__SF-UI-Text-Semibold__"
                             ]
                           },
                           "depth" : 0,
@@ -9122,11 +8975,6 @@
                               "length" : 15,
                               "offset" : 0,
                               "style" : "COLOR:#000000"
-                            },
-                            {
-                              "length" : 15,
-                              "offset" : 0,
-                              "style" : "FONT:SFProText-Semibold"
                             },
                             {
                               "length" : 15,
@@ -9147,6 +8995,11 @@
                               "length" : 15,
                               "offset" : 0,
                               "style" : "LINEHEIGHT:1.3"
+                            },
+                            {
+                              "length" : 15,
+                              "offset" : 0,
+                              "style" : "FONT:__SF-UI-Text-Semibold__"
                             }
                           ],
                           "key" : "5u5t",
@@ -9155,7 +9008,7 @@
                         }
                       ],
                       "cached" : {
-                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Semibold&quot;, serif;-webkit-text-fill-color:#000000;font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Edit Mode Title<\/span><\/span>",
+                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Semibold&quot;, &quot;SFProText-Semibold&quot;, &quot;SFUIText-Semibold&quot;, &quot;.SFUIText-Semibold&quot;, sans-serif;-webkit-text-fill-color:#000000;font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Edit Mode Title<\/span><\/span>",
                         "os" : "10_13",
                         "size" : {
                           "height" : 22,
@@ -9256,7 +9109,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 870,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -9422,6 +9275,8 @@
                         "opacity" : 1,
                         "originalFilename" : "navBarIconBlue.svg",
                         "parentid" : "F#kz?.=[",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -9546,8 +9401,8 @@
                               "COLOR:rgb(0, 122, 255)",
                               "LETTERSPACING:-0.41",
                               "LINEHEIGHT:1.3",
-                              "FONT:SFProText-Regular",
-                              "ALIGN:right"
+                              "ALIGN:right",
+                              "FONT:__SF-UI-Text-Regular__"
                             ]
                           },
                           "depth" : 0,
@@ -9578,12 +9433,12 @@
                             {
                               "length" : 4,
                               "offset" : 0,
-                              "style" : "FONT:SFProText-Regular"
+                              "style" : "ALIGN:right"
                             },
                             {
                               "length" : 4,
                               "offset" : 0,
-                              "style" : "ALIGN:right"
+                              "style" : "FONT:__SF-UI-Text-Regular__"
                             }
                           ],
                           "key" : "5u5t",
@@ -9592,7 +9447,7 @@
                         }
                       ],
                       "cached" : {
-                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(0, 122, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Edit<\/span><\/span>",
+                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 122, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Edit<\/span><\/span>",
                         "os" : "10_13",
                         "size" : {
                           "height" : 22,
@@ -9660,11 +9515,11 @@
                           "data" : {
                             "emptyStyle" : [
                               "COLOR:#000000",
-                              "FONT:SFProText-Semibold",
                               "ALIGN:center",
                               "SIZE:17",
                               "LETTERSPACING:-0.41",
-                              "LINEHEIGHT:1.3"
+                              "LINEHEIGHT:1.3",
+                              "FONT:__SF-UI-Text-Semibold__"
                             ]
                           },
                           "depth" : 0,
@@ -9676,11 +9531,6 @@
                               "length" : 5,
                               "offset" : 0,
                               "style" : "COLOR:#000000"
-                            },
-                            {
-                              "length" : 5,
-                              "offset" : 0,
-                              "style" : "FONT:SFProText-Semibold"
                             },
                             {
                               "length" : 5,
@@ -9701,6 +9551,11 @@
                               "length" : 5,
                               "offset" : 0,
                               "style" : "LINEHEIGHT:1.3"
+                            },
+                            {
+                              "length" : 5,
+                              "offset" : 0,
+                              "style" : "FONT:__SF-UI-Text-Semibold__"
                             }
                           ],
                           "key" : "5u5t",
@@ -9709,7 +9564,7 @@
                         }
                       ],
                       "cached" : {
-                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Semibold&quot;, serif;-webkit-text-fill-color:#000000;font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Title<\/span><\/span>",
+                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Semibold&quot;, &quot;SFProText-Semibold&quot;, &quot;SFUIText-Semibold&quot;, &quot;.SFUIText-Semibold&quot;, sans-serif;-webkit-text-fill-color:#000000;font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Title<\/span><\/span>",
                         "os" : "10_13",
                         "size" : {
                           "height" : 22,
@@ -9810,7 +9665,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 870,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -9973,7 +9828,8 @@
                                   "COLOR:rgb(0, 122, 255)",
                                   "LETTERSPACING:-0.41",
                                   "LINEHEIGHT:1.3",
-                                  "FONT:SFProText-Regular"
+                                  "ALIGN:left",
+                                  "FONT:__SF-UI-Text-Regular__"
                                 ]
                               },
                               "depth" : 0,
@@ -10004,7 +9860,12 @@
                                 {
                                   "length" : 12,
                                   "offset" : 0,
-                                  "style" : "FONT:SFProText-Regular"
+                                  "style" : "ALIGN:left"
+                                },
+                                {
+                                  "length" : 12,
+                                  "offset" : 0,
+                                  "style" : "FONT:__SF-UI-Text-Regular__"
                                 }
                               ],
                               "key" : "5u5t",
@@ -10013,7 +9874,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(0, 122, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Parent Title<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 122, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Parent Title<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 22,
@@ -10087,6 +9948,8 @@
                         "opacity" : 1,
                         "originalFilename" : "chevronBlue.svg",
                         "parentid" : "(?ItnkqS",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -10208,11 +10071,11 @@
                           "data" : {
                             "emptyStyle" : [
                               "COLOR:#000000",
-                              "FONT:SFProText-Semibold",
                               "ALIGN:center",
                               "SIZE:17",
                               "LETTERSPACING:-0.41",
-                              "LINEHEIGHT:1.3"
+                              "LINEHEIGHT:1.3",
+                              "FONT:__SF-UI-Text-Semibold__"
                             ]
                           },
                           "depth" : 0,
@@ -10224,11 +10087,6 @@
                               "length" : 5,
                               "offset" : 0,
                               "style" : "COLOR:#000000"
-                            },
-                            {
-                              "length" : 5,
-                              "offset" : 0,
-                              "style" : "FONT:SFProText-Semibold"
                             },
                             {
                               "length" : 5,
@@ -10249,6 +10107,11 @@
                               "length" : 5,
                               "offset" : 0,
                               "style" : "LINEHEIGHT:1.3"
+                            },
+                            {
+                              "length" : 5,
+                              "offset" : 0,
+                              "style" : "FONT:__SF-UI-Text-Semibold__"
                             }
                           ],
                           "key" : "5u5t",
@@ -10257,7 +10120,7 @@
                         }
                       ],
                       "cached" : {
-                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Semibold&quot;, serif;-webkit-text-fill-color:#000000;font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Title<\/span><\/span>",
+                        "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Semibold&quot;, &quot;SFProText-Semibold&quot;, &quot;SFUIText-Semibold&quot;, &quot;.SFUIText-Semibold&quot;, sans-serif;-webkit-text-fill-color:#000000;font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Title<\/span><\/span>",
                         "os" : "10_13",
                         "size" : {
                           "height" : 22,
@@ -10357,6 +10220,8 @@
                         "opacity" : 1,
                         "originalFilename" : "navBarIconBlue.svg",
                         "parentid" : "^Jk%g92W",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -10511,7 +10376,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 870,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -10773,14 +10638,7 @@
                         "sepia" : 0,
                         "sepiaEnabled" : 0,
                         "shadows" : [
-                          {
-                            "__class" : "Shadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "styledText" : {
                           "__class" : "StyledTextDraft",
@@ -10791,9 +10649,9 @@
                                   "SIZE:17",
                                   "LETTERSPACING:-0.41",
                                   "LINEHEIGHT:1.3",
-                                  "FONT:SFProText-Regular",
                                   "ALIGN:right",
-                                  "COLOR:rgb(255, 149, 0)"
+                                  "COLOR:rgb(255, 149, 0)",
+                                  "FONT:__SF-UI-Text-Regular__"
                                 ]
                               },
                               "depth" : 0,
@@ -10819,17 +10677,17 @@
                                 {
                                   "length" : 8,
                                   "offset" : 0,
-                                  "style" : "FONT:SFProText-Regular"
-                                },
-                                {
-                                  "length" : 8,
-                                  "offset" : 0,
                                   "style" : "ALIGN:right"
                                 },
                                 {
                                   "length" : 8,
                                   "offset" : 0,
                                   "style" : "COLOR:rgb(255, 149, 0)"
+                                },
+                                {
+                                  "length" : 8,
+                                  "offset" : 0,
+                                  "style" : "FONT:__SF-UI-Text-Regular__"
                                 }
                               ],
                               "key" : "5u5t",
@@ -10838,7 +10696,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(255, 149, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Action 3<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(255, 149, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Action 3<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 22,
@@ -10976,14 +10834,7 @@
                         "sepia" : 0,
                         "sepiaEnabled" : 0,
                         "shadows" : [
-                          {
-                            "__class" : "Shadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "styledText" : {
                           "__class" : "StyledTextDraft",
@@ -10994,9 +10845,9 @@
                                   "SIZE:17",
                                   "LETTERSPACING:-0.41",
                                   "LINEHEIGHT:1.3",
-                                  "FONT:SFProText-Regular",
                                   "ALIGN:center",
-                                  "COLOR:rgb(255, 149, 0)"
+                                  "COLOR:rgb(255, 149, 0)",
+                                  "FONT:__SF-UI-Text-Regular__"
                                 ]
                               },
                               "depth" : 0,
@@ -11022,17 +10873,17 @@
                                 {
                                   "length" : 8,
                                   "offset" : 0,
-                                  "style" : "FONT:SFProText-Regular"
-                                },
-                                {
-                                  "length" : 8,
-                                  "offset" : 0,
                                   "style" : "ALIGN:center"
                                 },
                                 {
                                   "length" : 8,
                                   "offset" : 0,
                                   "style" : "COLOR:rgb(255, 149, 0)"
+                                },
+                                {
+                                  "length" : 8,
+                                  "offset" : 0,
+                                  "style" : "FONT:__SF-UI-Text-Regular__"
                                 }
                               ],
                               "key" : "5u5t",
@@ -11041,7 +10892,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(255, 149, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Action 2<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(255, 149, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Action 2<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 22,
@@ -11179,14 +11030,7 @@
                         "sepia" : 0,
                         "sepiaEnabled" : 0,
                         "shadows" : [
-                          {
-                            "__class" : "Shadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "styledText" : {
                           "__class" : "StyledTextDraft",
@@ -11197,9 +11041,9 @@
                                   "SIZE:17",
                                   "LETTERSPACING:-0.41",
                                   "LINEHEIGHT:1.3",
-                                  "FONT:SFProText-Regular",
                                   "ALIGN:left",
-                                  "COLOR:rgb(255, 149, 0)"
+                                  "COLOR:rgb(255, 149, 0)",
+                                  "FONT:__SF-UI-Text-Regular__"
                                 ]
                               },
                               "depth" : 0,
@@ -11225,17 +11069,17 @@
                                 {
                                   "length" : 8,
                                   "offset" : 0,
-                                  "style" : "FONT:SFProText-Regular"
-                                },
-                                {
-                                  "length" : 8,
-                                  "offset" : 0,
                                   "style" : "ALIGN:left"
                                 },
                                 {
                                   "length" : 8,
                                   "offset" : 0,
                                   "style" : "COLOR:rgb(255, 149, 0)"
+                                },
+                                {
+                                  "length" : 8,
+                                  "offset" : 0,
+                                  "style" : "FONT:__SF-UI-Text-Regular__"
                                 }
                               ],
                               "key" : "5u5t",
@@ -11244,7 +11088,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(255, 149, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Action 1<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(255, 149, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Action 1<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 22,
@@ -11398,7 +11242,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 445,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -11549,14 +11393,7 @@
                         "sepia" : 0,
                         "sepiaEnabled" : 0,
                         "shadows" : [
-                          {
-                            "__class" : "Shadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "styledText" : {
                           "__class" : "StyledTextDraft",
@@ -11567,9 +11404,9 @@
                                   "SIZE:17",
                                   "LETTERSPACING:-0.41",
                                   "LINEHEIGHT:1.3",
-                                  "FONT:SFProText-Regular",
                                   "ALIGN:right",
-                                  "COLOR:rgb(255, 149, 0)"
+                                  "COLOR:rgb(255, 149, 0)",
+                                  "FONT:__SF-UI-Text-Regular__"
                                 ]
                               },
                               "depth" : 0,
@@ -11595,17 +11432,17 @@
                                 {
                                   "length" : 8,
                                   "offset" : 0,
-                                  "style" : "FONT:SFProText-Regular"
-                                },
-                                {
-                                  "length" : 8,
-                                  "offset" : 0,
                                   "style" : "ALIGN:right"
                                 },
                                 {
                                   "length" : 8,
                                   "offset" : 0,
                                   "style" : "COLOR:rgb(255, 149, 0)"
+                                },
+                                {
+                                  "length" : 8,
+                                  "offset" : 0,
+                                  "style" : "FONT:__SF-UI-Text-Regular__"
                                 }
                               ],
                               "key" : "5u5t",
@@ -11614,7 +11451,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(255, 149, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Action 2<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(255, 149, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Action 2<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 22,
@@ -11752,14 +11589,7 @@
                         "sepia" : 0,
                         "sepiaEnabled" : 0,
                         "shadows" : [
-                          {
-                            "__class" : "Shadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "styledText" : {
                           "__class" : "StyledTextDraft",
@@ -11770,9 +11600,9 @@
                                   "SIZE:17",
                                   "LETTERSPACING:-0.41",
                                   "LINEHEIGHT:1.3",
-                                  "FONT:SFProText-Regular",
                                   "ALIGN:left",
-                                  "COLOR:rgb(255, 149, 0)"
+                                  "COLOR:rgb(255, 149, 0)",
+                                  "FONT:__SF-UI-Text-Regular__"
                                 ]
                               },
                               "depth" : 0,
@@ -11798,17 +11628,17 @@
                                 {
                                   "length" : 8,
                                   "offset" : 0,
-                                  "style" : "FONT:SFProText-Regular"
-                                },
-                                {
-                                  "length" : 8,
-                                  "offset" : 0,
                                   "style" : "ALIGN:left"
                                 },
                                 {
                                   "length" : 8,
                                   "offset" : 0,
                                   "style" : "COLOR:rgb(255, 149, 0)"
+                                },
+                                {
+                                  "length" : 8,
+                                  "offset" : 0,
+                                  "style" : "FONT:__SF-UI-Text-Regular__"
                                 }
                               ],
                               "key" : "5u5t",
@@ -11817,7 +11647,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(255, 149, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Action 1<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(255, 149, 0);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Action 1<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 22,
@@ -11971,7 +11801,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 445,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -12146,6 +11976,8 @@
                         "opacity" : 1,
                         "originalFilename" : "actionIconPolygonOrange.svg",
                         "parentid" : "9N97sP8j",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -12308,6 +12140,8 @@
                         "opacity" : 1,
                         "originalFilename" : "actionIconTriangleOrange.svg",
                         "parentid" : "h'qBdS4;",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -12470,6 +12304,8 @@
                         "opacity" : 1,
                         "originalFilename" : "actionIconRectangleOrange.svg",
                         "parentid" : "v3pOx]_z",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -12632,6 +12468,8 @@
                         "opacity" : 1,
                         "originalFilename" : "actionIconOvalOrange.svg",
                         "parentid" : "#v+u!%T8",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -12785,6 +12623,8 @@
                         "opacity" : 1,
                         "originalFilename" : "navBarIconOrange.svg",
                         "parentid" : "c(9&NKC|",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -12939,7 +12779,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 445,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -13114,6 +12954,8 @@
                         "opacity" : 1,
                         "originalFilename" : "actionIconTriangleOrange.svg",
                         "parentid" : "6S!$tb.V",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -13276,6 +13118,8 @@
                         "opacity" : 1,
                         "originalFilename" : "actionIconRectangleOrange.svg",
                         "parentid" : "anEL}Job",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -13438,6 +13282,8 @@
                         "opacity" : 1,
                         "originalFilename" : "actionIconOvalOrange.svg",
                         "parentid" : "6'RD6$`n",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -13591,6 +13437,8 @@
                         "opacity" : 1,
                         "originalFilename" : "navBarIconOrange.svg",
                         "parentid" : "4&cNT7\/|",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -13745,7 +13593,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 445,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -13920,6 +13768,8 @@
                         "opacity" : 1,
                         "originalFilename" : "actionIconRectangleOrange.svg",
                         "parentid" : "v:@`%>)0",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -14082,6 +13932,8 @@
                         "opacity" : 1,
                         "originalFilename" : "actionIconOvalOrange.svg",
                         "parentid" : "0g(*9jB3",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -14235,6 +14087,8 @@
                         "opacity" : 1,
                         "originalFilename" : "navBarIconOrange.svg",
                         "parentid" : "d;s|3tFG",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -14389,7 +14243,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 445,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -14564,6 +14418,8 @@
                         "opacity" : 1,
                         "originalFilename" : "actionIconOvalOrange.svg",
                         "parentid" : "WLeK#,lb",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -14717,6 +14573,8 @@
                         "opacity" : 1,
                         "originalFilename" : "navBarIconOrange.svg",
                         "parentid" : "b&'f)3|Q",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -14871,7 +14729,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 445,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -15022,14 +14880,7 @@
                         "sepia" : 0,
                         "sepiaEnabled" : 0,
                         "shadows" : [
-                          {
-                            "__class" : "Shadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "styledText" : {
                           "__class" : "StyledTextDraft",
@@ -15041,8 +14892,8 @@
                                   "COLOR:rgb(0, 122, 255)",
                                   "LETTERSPACING:-0.41",
                                   "LINEHEIGHT:1.3",
-                                  "FONT:SFProText-Regular",
-                                  "ALIGN:right"
+                                  "ALIGN:right",
+                                  "FONT:__SF-UI-Text-Regular__"
                                 ]
                               },
                               "depth" : 0,
@@ -15073,12 +14924,12 @@
                                 {
                                   "length" : 8,
                                   "offset" : 0,
-                                  "style" : "FONT:SFProText-Regular"
+                                  "style" : "ALIGN:right"
                                 },
                                 {
                                   "length" : 8,
                                   "offset" : 0,
-                                  "style" : "ALIGN:right"
+                                  "style" : "FONT:__SF-UI-Text-Regular__"
                                 }
                               ],
                               "key" : "5u5t",
@@ -15087,7 +14938,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(0, 122, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Action 3<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 122, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Action 3<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 22,
@@ -15225,14 +15076,7 @@
                         "sepia" : 0,
                         "sepiaEnabled" : 0,
                         "shadows" : [
-                          {
-                            "__class" : "Shadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "styledText" : {
                           "__class" : "StyledTextDraft",
@@ -15244,8 +15088,8 @@
                                   "COLOR:rgb(0, 122, 255)",
                                   "LETTERSPACING:-0.41",
                                   "LINEHEIGHT:1.3",
-                                  "FONT:SFProText-Regular",
-                                  "ALIGN:center"
+                                  "ALIGN:center",
+                                  "FONT:__SF-UI-Text-Regular__"
                                 ]
                               },
                               "depth" : 0,
@@ -15276,12 +15120,12 @@
                                 {
                                   "length" : 8,
                                   "offset" : 0,
-                                  "style" : "FONT:SFProText-Regular"
+                                  "style" : "ALIGN:center"
                                 },
                                 {
                                   "length" : 8,
                                   "offset" : 0,
-                                  "style" : "ALIGN:center"
+                                  "style" : "FONT:__SF-UI-Text-Regular__"
                                 }
                               ],
                               "key" : "5u5t",
@@ -15290,7 +15134,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(0, 122, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Action 2<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 122, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Action 2<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 22,
@@ -15428,14 +15272,7 @@
                         "sepia" : 0,
                         "sepiaEnabled" : 0,
                         "shadows" : [
-                          {
-                            "__class" : "Shadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "styledText" : {
                           "__class" : "StyledTextDraft",
@@ -15447,8 +15284,8 @@
                                   "COLOR:rgb(0, 122, 255)",
                                   "LETTERSPACING:-0.41",
                                   "LINEHEIGHT:1.3",
-                                  "FONT:SFProText-Regular",
-                                  "ALIGN:left"
+                                  "ALIGN:left",
+                                  "FONT:__SF-UI-Text-Regular__"
                                 ]
                               },
                               "depth" : 0,
@@ -15479,12 +15316,12 @@
                                 {
                                   "length" : 8,
                                   "offset" : 0,
-                                  "style" : "FONT:SFProText-Regular"
+                                  "style" : "ALIGN:left"
                                 },
                                 {
                                   "length" : 8,
                                   "offset" : 0,
-                                  "style" : "ALIGN:left"
+                                  "style" : "FONT:__SF-UI-Text-Regular__"
                                 }
                               ],
                               "key" : "5u5t",
@@ -15493,7 +15330,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Regular&quot;, serif;-webkit-text-fill-color:rgb(0, 122, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Action 1<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"5u5t-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 122, 255);font-size:17px;letter-spacing:-0.41px;line-height:1.3\"><span data-text=\"true\">Action 1<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 22,
@@ -15647,7 +15484,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 50,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -15798,14 +15635,7 @@
                         "sepia" : 0,
                         "sepiaEnabled" : 0,
                         "shadows" : [
-                          {
-                            "__class" : "Shadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "styledText" : {
                           "__class" : "StyledTextDraft",
@@ -16001,14 +15831,7 @@
                         "sepia" : 0,
                         "sepiaEnabled" : 0,
                         "shadows" : [
-                          {
-                            "__class" : "Shadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "styledText" : {
                           "__class" : "StyledTextDraft",
@@ -16220,7 +16043,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 50,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -16386,6 +16209,8 @@
                         "opacity" : 1,
                         "originalFilename" : "navBarIconBlue.svg",
                         "parentid" : "_5[zrvMR",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -16548,6 +16373,8 @@
                         "opacity" : 1,
                         "originalFilename" : "actionIconCircle.svg",
                         "parentid" : ";wA'1w1?",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -16710,6 +16537,8 @@
                         "opacity" : 1,
                         "originalFilename" : "actionIconRectangle.svg",
                         "parentid" : "]{r=r35Z",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -16872,6 +16701,8 @@
                         "opacity" : 1,
                         "originalFilename" : "actionIconTriangle.svg",
                         "parentid" : "A1D{*OxF",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -17034,6 +16865,8 @@
                         "opacity" : 1,
                         "originalFilename" : "actionIconPolygonBlue.svg",
                         "parentid" : "2]R{.ShE",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -17188,7 +17021,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 50,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -17363,6 +17196,8 @@
                         "opacity" : 1,
                         "originalFilename" : "actionIconTriangle.svg",
                         "parentid" : "rGK!;+}7",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -17525,6 +17360,8 @@
                         "opacity" : 1,
                         "originalFilename" : "actionIconRectangle.svg",
                         "parentid" : "#NgGHZJB",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -17687,6 +17524,8 @@
                         "opacity" : 1,
                         "originalFilename" : "actionIconCircle.svg",
                         "parentid" : "jzYZUv3~",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -17840,6 +17679,8 @@
                         "opacity" : 1,
                         "originalFilename" : "navBarIconBlue.svg",
                         "parentid" : "a[k-68e?",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -17994,7 +17835,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 50,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -18169,6 +18010,8 @@
                         "opacity" : 1,
                         "originalFilename" : "actionIconRectangle.svg",
                         "parentid" : "Wi^{s,_*",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -18331,6 +18174,8 @@
                         "opacity" : 1,
                         "originalFilename" : "actionIconCircle.svg",
                         "parentid" : "lcn]Iy7+",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -18484,6 +18329,8 @@
                         "opacity" : 1,
                         "originalFilename" : "navBarIconBlue.svg",
                         "parentid" : "2({bUdWy",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -18638,7 +18485,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 51,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -18813,6 +18660,8 @@
                         "opacity" : 1,
                         "originalFilename" : "actionIconCircle.svg",
                         "parentid" : "7SkIQgnM",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -18966,6 +18815,8 @@
                         "opacity" : 1,
                         "originalFilename" : "navBarIconBlue.svg",
                         "parentid" : "hbBekhh}",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -19120,7 +18971,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 50,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -19514,6 +19365,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconOrange.svg",
                         "parentid" : "+CGAY<D}",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -19784,6 +19637,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconInactive.svg",
                         "parentid" : "1C)y[Ht_",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -20054,6 +19909,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconInactive.svg",
                         "parentid" : ">{&=X1:>",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -20324,6 +20181,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconInactive.svg",
                         "parentid" : "5i7Y-V2X",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -20594,6 +20453,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconInactive.svg",
                         "parentid" : "{Ef*{H_I",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -20748,7 +20609,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 445,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -21031,6 +20892,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconOrange.svg",
                         "parentid" : "Rk|^4!0Y",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -21301,6 +21164,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconInactive.svg",
                         "parentid" : "=pZ}wV)z",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -21571,6 +21436,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconInactive.svg",
                         "parentid" : "*.Bkfd9<",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -21841,6 +21708,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconInactive.svg",
                         "parentid" : "Z`}0G?s6",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -21995,7 +21864,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 445,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -22278,6 +22147,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconInactive.svg",
                         "parentid" : "]r*<v;D^",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -22548,6 +22419,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconInactive.svg",
                         "parentid" : "b%TD(:hr",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -22818,6 +22691,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconOrange.svg",
                         "parentid" : "EK2E(b<:",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -22972,7 +22847,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 445,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -23271,6 +23146,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconBlue.svg",
                         "parentid" : "+?tJgfM~",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -23548,6 +23425,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconInactive.svg",
                         "parentid" : "p;CP,yu,",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -23825,6 +23704,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconInactive.svg",
                         "parentid" : "v:o\/HDm]",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -24102,6 +23983,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconInactive.svg",
                         "parentid" : ">?_#>ZfF",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -24379,6 +24262,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconInactive.svg",
                         "parentid" : "!5)2$)K&",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -24533,7 +24418,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 50,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -24832,6 +24717,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconBlue.svg",
                         "parentid" : "?'ORGc8#",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -25109,6 +24996,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconInactive.svg",
                         "parentid" : "XVD}bqOr",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -25386,6 +25275,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconInactive.svg",
                         "parentid" : "Ys{#=A^i",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -25663,6 +25554,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconInactive.svg",
                         "parentid" : "I5YF6t|_",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -25817,7 +25710,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 50,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -26116,6 +26009,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconBlue.svg",
                         "parentid" : "rjzG@$5u",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -26386,6 +26281,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconInactive.svg",
                         "parentid" : "pw5AV]'5",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -26656,6 +26553,8 @@
                         "opacity" : 1,
                         "originalFilename" : "tabBarIconInactive.svg",
                         "parentid" : "&DeI;RZr",
+                        "pixelHeight" : null,
+                        "pixelWidth" : null,
                         "radius" : 0,
                         "radiusBottomLeft" : 0,
                         "radiusBottomRight" : 0,
@@ -26810,7 +26709,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 50,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -27052,6 +26951,8 @@
                     "opacity" : 1,
                     "originalFilename" : "batteryLightAllScreen.svg",
                     "parentid" : "K|?5yf`n",
+                    "pixelHeight" : null,
+                    "pixelWidth" : null,
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
@@ -27126,6 +27027,8 @@
                     "opacity" : 1,
                     "originalFilename" : "wifiLightAllScreen.svg",
                     "parentid" : "K|?5yf`n",
+                    "pixelHeight" : null,
+                    "pixelWidth" : null,
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
@@ -27200,6 +27103,8 @@
                     "opacity" : 1,
                     "originalFilename" : "mobileSignalLightAllScreen.svg",
                     "parentid" : "K|?5yf`n",
+                    "pixelHeight" : null,
+                    "pixelWidth" : null,
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
@@ -27288,14 +27193,7 @@
                         "sepia" : 0,
                         "sepiaEnabled" : 0,
                         "shadows" : [
-                          {
-                            "__class" : "Shadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "styledText" : {
                           "__class" : "StyledTextDraft",
@@ -27303,12 +27201,12 @@
                             {
                               "data" : {
                                 "emptyStyle" : [
-                                  "FONT:SFProText-Semibold",
                                   "LETTERSPACING:0",
                                   "SIZE:14",
                                   "ALIGN:center",
                                   "LINEHEIGHT:1.15",
-                                  "COLOR:rgb(255, 255, 255)"
+                                  "COLOR:rgb(255, 255, 255)",
+                                  "FONT:__SF-UI-Text-Semibold__"
                                 ]
                               },
                               "depth" : 0,
@@ -27316,11 +27214,6 @@
 
                               ],
                               "inlineStyleRanges" : [
-                                {
-                                  "length" : 4,
-                                  "offset" : 0,
-                                  "style" : "FONT:SFProText-Semibold"
-                                },
                                 {
                                   "length" : 4,
                                   "offset" : 0,
@@ -27345,6 +27238,11 @@
                                   "length" : 4,
                                   "offset" : 0,
                                   "style" : "COLOR:rgb(255, 255, 255)"
+                                },
+                                {
+                                  "length" : 4,
+                                  "offset" : 0,
+                                  "style" : "FONT:__SF-UI-Text-Semibold__"
                                 }
                               ],
                               "key" : "9b984",
@@ -27353,7 +27251,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"9b984-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Semibold&quot;, serif;-webkit-text-fill-color:rgb(255, 255, 255);font-size:14px;letter-spacing:0px;line-height:1.15\"><span data-text=\"true\">9:40<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"9b984-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Semibold&quot;, &quot;SFProText-Semibold&quot;, &quot;SFUIText-Semibold&quot;, &quot;.SFUIText-Semibold&quot;, sans-serif;-webkit-text-fill-color:rgb(255, 255, 255);font-size:14px;letter-spacing:0px;line-height:1.15\"><span data-text=\"true\">9:40<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 16,
@@ -27507,7 +27405,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 445,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -27638,6 +27536,8 @@
                     "opacity" : 1,
                     "originalFilename" : "batteryLightAllScreen.svg",
                     "parentid" : "$n\/[_+\/u",
+                    "pixelHeight" : null,
+                    "pixelWidth" : null,
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
@@ -27712,6 +27612,8 @@
                     "opacity" : 1,
                     "originalFilename" : "wifiLightAllScreen.svg",
                     "parentid" : "$n\/[_+\/u",
+                    "pixelHeight" : null,
+                    "pixelWidth" : null,
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
@@ -27786,6 +27688,8 @@
                     "opacity" : 1,
                     "originalFilename" : "mobileSignalLightAllScreen.svg",
                     "parentid" : "$n\/[_+\/u",
+                    "pixelHeight" : null,
+                    "pixelWidth" : null,
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
@@ -27874,14 +27778,7 @@
                         "sepia" : 0,
                         "sepiaEnabled" : 0,
                         "shadows" : [
-                          {
-                            "__class" : "Shadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "styledText" : {
                           "__class" : "StyledTextDraft",
@@ -27889,12 +27786,12 @@
                             {
                               "data" : {
                                 "emptyStyle" : [
-                                  "FONT:SFProText-Semibold",
                                   "LETTERSPACING:0",
                                   "SIZE:14",
                                   "ALIGN:center",
                                   "LINEHEIGHT:1.15",
-                                  "COLOR:rgb(255, 255, 255)"
+                                  "COLOR:rgb(255, 255, 255)",
+                                  "FONT:__SF-UI-Text-Semibold__"
                                 ]
                               },
                               "depth" : 0,
@@ -27902,11 +27799,6 @@
 
                               ],
                               "inlineStyleRanges" : [
-                                {
-                                  "length" : 4,
-                                  "offset" : 0,
-                                  "style" : "FONT:SFProText-Semibold"
-                                },
                                 {
                                   "length" : 4,
                                   "offset" : 0,
@@ -27931,6 +27823,11 @@
                                   "length" : 4,
                                   "offset" : 0,
                                   "style" : "COLOR:rgb(255, 255, 255)"
+                                },
+                                {
+                                  "length" : 4,
+                                  "offset" : 0,
+                                  "style" : "FONT:__SF-UI-Text-Semibold__"
                                 }
                               ],
                               "key" : "9b984",
@@ -27939,7 +27836,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"9b984-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Semibold&quot;, serif;-webkit-text-fill-color:rgb(255, 255, 255);font-size:14px;letter-spacing:0px;line-height:1.15\"><span data-text=\"true\">9:40<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"9b984-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Semibold&quot;, &quot;SFProText-Semibold&quot;, &quot;SFUIText-Semibold&quot;, &quot;.SFUIText-Semibold&quot;, sans-serif;-webkit-text-fill-color:rgb(255, 255, 255);font-size:14px;letter-spacing:0px;line-height:1.15\"><span data-text=\"true\">9:40<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 16,
@@ -28093,7 +27990,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 445,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -28224,6 +28121,8 @@
                     "opacity" : 1,
                     "originalFilename" : "batteryLightAllScreen.svg",
                     "parentid" : "asZU:O:(",
+                    "pixelHeight" : null,
+                    "pixelWidth" : null,
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
@@ -28298,6 +28197,8 @@
                     "opacity" : 1,
                     "originalFilename" : "wifiLightAllScreen.svg",
                     "parentid" : "asZU:O:(",
+                    "pixelHeight" : null,
+                    "pixelWidth" : null,
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
@@ -28372,6 +28273,8 @@
                     "opacity" : 1,
                     "originalFilename" : "mobileSignalLightAllScreen.svg",
                     "parentid" : "asZU:O:(",
+                    "pixelHeight" : null,
+                    "pixelWidth" : null,
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
@@ -28460,14 +28363,7 @@
                         "sepia" : 0,
                         "sepiaEnabled" : 0,
                         "shadows" : [
-                          {
-                            "__class" : "Shadow",
-                            "blur" : 5,
-                            "color" : "rgba(0,0,0,0.25)",
-                            "enabled" : false,
-                            "x" : 0,
-                            "y" : 2
-                          }
+
                         ],
                         "styledText" : {
                           "__class" : "StyledTextDraft",
@@ -28475,12 +28371,12 @@
                             {
                               "data" : {
                                 "emptyStyle" : [
-                                  "FONT:SFProText-Semibold",
                                   "LETTERSPACING:0",
                                   "SIZE:14",
                                   "ALIGN:center",
                                   "LINEHEIGHT:1.15",
-                                  "COLOR:rgb(255, 255, 255)"
+                                  "COLOR:rgb(255, 255, 255)",
+                                  "FONT:__SF-UI-Text-Semibold__"
                                 ]
                               },
                               "depth" : 0,
@@ -28488,11 +28384,6 @@
 
                               ],
                               "inlineStyleRanges" : [
-                                {
-                                  "length" : 4,
-                                  "offset" : 0,
-                                  "style" : "FONT:SFProText-Semibold"
-                                },
                                 {
                                   "length" : 4,
                                   "offset" : 0,
@@ -28517,6 +28408,11 @@
                                   "length" : 4,
                                   "offset" : 0,
                                   "style" : "COLOR:rgb(255, 255, 255)"
+                                },
+                                {
+                                  "length" : 4,
+                                  "offset" : 0,
+                                  "style" : "FONT:__SF-UI-Text-Semibold__"
                                 }
                               ],
                               "key" : "9b984",
@@ -28525,7 +28421,7 @@
                             }
                           ],
                           "cached" : {
-                            "html" : "<span data-offset-key=\"9b984-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Semibold&quot;, serif;-webkit-text-fill-color:rgb(255, 255, 255);font-size:14px;letter-spacing:0px;line-height:1.15\"><span data-text=\"true\">9:40<\/span><\/span>",
+                            "html" : "<span data-offset-key=\"9b984-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Semibold&quot;, &quot;SFProText-Semibold&quot;, &quot;SFUIText-Semibold&quot;, &quot;.SFUIText-Semibold&quot;, sans-serif;-webkit-text-fill-color:rgb(255, 255, 255);font-size:14px;letter-spacing:0px;line-height:1.15\"><span data-text=\"true\">9:40<\/span><\/span>",
                             "os" : "10_13",
                             "size" : {
                               "height" : 16,
@@ -28679,7 +28575,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 445,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -28810,6 +28706,8 @@
                     "opacity" : 1,
                     "originalFilename" : "batteryLightAllScreen.svg",
                     "parentid" : "O2b8Hs,*",
+                    "pixelHeight" : null,
+                    "pixelWidth" : null,
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
@@ -28884,6 +28782,8 @@
                     "opacity" : 1,
                     "originalFilename" : "wifiLightAllScreen.svg",
                     "parentid" : "O2b8Hs,*",
+                    "pixelHeight" : null,
+                    "pixelWidth" : null,
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
@@ -28958,6 +28858,8 @@
                     "opacity" : 1,
                     "originalFilename" : "mobileSignalLightAllScreen.svg",
                     "parentid" : "O2b8Hs,*",
+                    "pixelHeight" : null,
+                    "pixelWidth" : null,
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
@@ -29020,14 +28922,7 @@
                     "sepia" : 0,
                     "sepiaEnabled" : 0,
                     "shadows" : [
-                      {
-                        "__class" : "Shadow",
-                        "blur" : 5,
-                        "color" : "rgba(0,0,0,0.25)",
-                        "enabled" : false,
-                        "x" : 0,
-                        "y" : 2
-                      }
+
                     ],
                     "styledText" : {
                       "__class" : "StyledTextDraft",
@@ -29035,12 +28930,12 @@
                         {
                           "data" : {
                             "emptyStyle" : [
-                              "FONT:SFProText-Semibold",
                               "LETTERSPACING:0",
                               "SIZE:14",
                               "ALIGN:center",
                               "LINEHEIGHT:1.15",
-                              "COLOR:rgb(255, 255, 255)"
+                              "COLOR:rgb(255, 255, 255)",
+                              "FONT:__SF-UI-Text-Semibold__"
                             ]
                           },
                           "depth" : 0,
@@ -29048,11 +28943,6 @@
 
                           ],
                           "inlineStyleRanges" : [
-                            {
-                              "length" : 4,
-                              "offset" : 0,
-                              "style" : "FONT:SFProText-Semibold"
-                            },
                             {
                               "length" : 4,
                               "offset" : 0,
@@ -29077,6 +28967,11 @@
                               "length" : 4,
                               "offset" : 0,
                               "style" : "COLOR:rgb(255, 255, 255)"
+                            },
+                            {
+                              "length" : 4,
+                              "offset" : 0,
+                              "style" : "FONT:__SF-UI-Text-Semibold__"
                             }
                           ],
                           "key" : "9b984",
@@ -29085,7 +28980,7 @@
                         }
                       ],
                       "cached" : {
-                        "html" : "<span data-offset-key=\"9b984-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Semibold&quot;, serif;-webkit-text-fill-color:rgb(255, 255, 255);font-size:14px;letter-spacing:0px;line-height:1.15\"><span data-text=\"true\">9:40<\/span><\/span>",
+                        "html" : "<span data-offset-key=\"9b984-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Semibold&quot;, &quot;SFProText-Semibold&quot;, &quot;SFUIText-Semibold&quot;, &quot;.SFUIText-Semibold&quot;, sans-serif;-webkit-text-fill-color:rgb(255, 255, 255);font-size:14px;letter-spacing:0px;line-height:1.15\"><span data-text=\"true\">9:40<\/span><\/span>",
                         "os" : "10_13",
                         "size" : {
                           "height" : 16,
@@ -29186,7 +29081,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 50,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
@@ -29317,6 +29212,8 @@
                     "opacity" : 1,
                     "originalFilename" : "batteryDarkAllScreen.svg",
                     "parentid" : "Ikf[Fm!@",
+                    "pixelHeight" : null,
+                    "pixelWidth" : null,
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
@@ -29391,6 +29288,8 @@
                     "opacity" : 1,
                     "originalFilename" : "wifiDarkAllScreen.svg",
                     "parentid" : "Ikf[Fm!@",
+                    "pixelHeight" : null,
+                    "pixelWidth" : null,
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
@@ -29465,6 +29364,8 @@
                     "opacity" : 1,
                     "originalFilename" : "mobileSignalDarkAllScreen.svg",
                     "parentid" : "Ikf[Fm!@",
+                    "pixelHeight" : null,
+                    "pixelWidth" : null,
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
@@ -29527,14 +29428,7 @@
                     "sepia" : 0,
                     "sepiaEnabled" : 0,
                     "shadows" : [
-                      {
-                        "__class" : "Shadow",
-                        "blur" : 5,
-                        "color" : "rgba(0,0,0,0.25)",
-                        "enabled" : false,
-                        "x" : 0,
-                        "y" : 2
-                      }
+
                     ],
                     "styledText" : {
                       "__class" : "StyledTextDraft",
@@ -29543,11 +29437,11 @@
                           "data" : {
                             "emptyStyle" : [
                               "COLOR:#000000",
-                              "FONT:SFProText-Semibold",
                               "LETTERSPACING:0",
                               "SIZE:14",
                               "ALIGN:center",
-                              "LINEHEIGHT:1.15"
+                              "LINEHEIGHT:1.15",
+                              "FONT:__SF-UI-Text-Semibold__"
                             ]
                           },
                           "depth" : 0,
@@ -29559,11 +29453,6 @@
                               "length" : 4,
                               "offset" : 0,
                               "style" : "COLOR:#000000"
-                            },
-                            {
-                              "length" : 4,
-                              "offset" : 0,
-                              "style" : "FONT:SFProText-Semibold"
                             },
                             {
                               "length" : 4,
@@ -29584,6 +29473,11 @@
                               "length" : 4,
                               "offset" : 0,
                               "style" : "LINEHEIGHT:1.15"
+                            },
+                            {
+                              "length" : 4,
+                              "offset" : 0,
+                              "style" : "FONT:__SF-UI-Text-Semibold__"
                             }
                           ],
                           "key" : "9b984",
@@ -29592,7 +29486,7 @@
                         }
                       ],
                       "cached" : {
-                        "html" : "<span data-offset-key=\"9b984-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Semibold&quot;, serif;-webkit-text-fill-color:#000000;font-size:14px;letter-spacing:0px;line-height:1.15\"><span data-text=\"true\">9:40<\/span><\/span>",
+                        "html" : "<span data-offset-key=\"9b984-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Semibold&quot;, &quot;SFProText-Semibold&quot;, &quot;SFUIText-Semibold&quot;, &quot;.SFUIText-Semibold&quot;, sans-serif;-webkit-text-fill-color:#000000;font-size:14px;letter-spacing:0px;line-height:1.15\"><span data-text=\"true\">9:40<\/span><\/span>",
                         "os" : "10_13",
                         "size" : {
                           "height" : 16,
@@ -29693,7 +29587,7 @@
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 50,
-            "locked" : false,
+            "locked" : true,
             "name" : "Copy element below ↓",
             "opacity" : 1,
             "parentid" : "X-EkO8Gh",
