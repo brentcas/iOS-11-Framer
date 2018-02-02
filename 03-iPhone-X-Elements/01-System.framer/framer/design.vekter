@@ -1147,9 +1147,9 @@
                         "os" : "10_13",
                         "size" : {
                           "height" : 44,
-                          "width" : 300
+                          "width" : 284
                         },
-                        "width" : 299
+                        "width" : 283
                       },
                       "entityMap" : {
 
@@ -7896,7 +7896,7 @@
             "sepiaEnabled" : 0,
             "targetName" : null,
             "top" : 0,
-            "visible" : true,
+            "visible" : false,
             "width" : 375,
             "widthFactor" : null
           }

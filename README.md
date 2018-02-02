@@ -14,27 +14,23 @@ To open the Framer files, you need to have [Framer][2] installed on your macOS d
 > - 01-Colors.framer
 > - 02-Fonts.framer
 
-> 03-iPhone-8-Elements
+> 02-iPhone-8-Elements
 > - 01-System.framer
 > - 02-Bars.framer
 > - 03-Controls.framer
 > - 04-Views.framer
 > - 05-Keyboards.framer
 
-> 04-iPhone-X-Elements
+> 03-iPhone-X-Elements
 > - 01-System.framer
 > - 02-Bars.framer
 > - 03-Controls.framer
 > - 04-Views.framer
 > - 05-Keyboards.framer
 
-Each Framer file has a collection of designed elements, and contains no prototype code. These elements are for the purposes of copying and pasting into your own prototypes, or being used as a design reference.
+Each Framer file has a collection of designed elements, and contains no prototype code to interactive behavior. These assets are for the purposes of copying and pasting into your own prototypes, or being used as a design reference.
 
-All files have been opened on Framer v109 and may have issues on other versions of Framer.
-
-## Branches
-
-There are two branches in this repo. For the latest polished version of the design system, use `master`. This branch might not have the latest updates, but it should have consistent organization and be easiest to use. For up to the up to the minute changes, use `beta` which is used to make updates before pushing them to `master`.
+All files have been opened on Framer v111 and may have issues on other versions of Framer.
 
 ## Footnotes
 
