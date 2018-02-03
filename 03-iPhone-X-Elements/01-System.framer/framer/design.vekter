@@ -7896,7 +7896,7 @@
             "sepiaEnabled" : 0,
             "targetName" : null,
             "top" : 0,
-            "visible" : false,
+            "visible" : true,
             "width" : 375,
             "widthFactor" : null
           }
