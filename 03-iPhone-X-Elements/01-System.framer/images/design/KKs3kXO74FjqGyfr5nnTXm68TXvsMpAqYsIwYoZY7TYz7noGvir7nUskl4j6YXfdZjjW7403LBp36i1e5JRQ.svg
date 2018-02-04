@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="19px" viewBox="0 0 12 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Dictation</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-SE-Widgets" transform="translate(-288.000000, -32.000000)" fill="#FFFFFF">
+            <g id="Search-Field-Type" transform="translate(8.000000, 24.000000)">
+                <g id="↳-Dictation" transform="translate(280.000000, 8.000000)">
+                    <path d="M6,0 L6,0 C7.65685425,0 9,1.34314575 9,3 L9,10 C9,11.6568542 7.65685425,13 6,13 L6,13 C4.34314575,13 3,11.6568542 3,10 L3,3 C3,1.34314575 4.34314575,0 6,0 Z M11.25,6.5 C10.8357864,6.5 10.5,6.83578644 10.5,7.25 L10.5,10 C10.5,12.4852814 8.48528137,14.5 6,14.5 C3.51471863,14.5 1.5,12.4852814 1.5,10 L1.5,7.25 C1.5,6.83578644 1.16421356,6.5 0.75,6.5 C0.335786438,6.5 0,6.83578644 0,7.25 L0,10 C0.00148134437,13.0225955 2.25111105,15.5721759 5.25,15.95 L5.25,17.5 L3.25,17.5 C2.83578644,17.5 2.5,17.8357864 2.5,18.25 C2.5,18.6642136 2.83578644,19 3.25,19 L8.75,19 C9.16421356,19 9.5,18.6642136 9.5,18.25 C9.5,17.8357864 9.16421356,17.5 8.75,17.5 L6.75,17.5 L6.75,15.95 C9.74888895,15.5721759 11.9985187,13.0225955 12,10 L12,7.25 C12,6.83578644 11.6642136,6.5 11.25,6.5 L11.25,6.5 Z" id="Dictation"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
