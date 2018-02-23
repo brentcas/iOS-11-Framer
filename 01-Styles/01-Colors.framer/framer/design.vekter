@@ -28,7 +28,7 @@
         "locked" : true,
         "name" : "Background",
         "opacity" : 1,
-        "parentid" : "~YR&{1Ty",
+        "parentid" : "v6f0gZp5V",
         "radius" : 0,
         "radiusBottomLeft" : 0,
         "radiusBottomRight" : 0,
@@ -7128,7 +7128,7 @@
         "locked" : true,
         "name" : "Colors",
         "opacity" : 1,
-        "parentid" : "~YR&{1Ty",
+        "parentid" : "v6f0gZp5V",
         "radius" : 0,
         "radiusBottomLeft" : 0,
         "radiusBottomRight" : 0,
@@ -7161,7 +7161,7 @@
         "brightnessEnabled" : 0,
         "centerAnchorX" : 0.074522292993630571,
         "centerAnchorY" : 0.030009920634920636,
-        "constraintsLocked" : true,
+        "constraintsLocked" : false,
         "contrast" : 100,
         "contrastEnabled" : 0,
         "editable" : false,
@@ -7181,7 +7181,7 @@
         "locked" : true,
         "name" : "Colors",
         "opacity" : 1,
-        "parentid" : "~YR&{1Ty",
+        "parentid" : "v6f0gZp5V",
         "right" : null,
         "rotation" : 0,
         "saturate" : 100,
@@ -7260,7 +7260,7 @@
         "widthFactor" : null
       }
     ],
-    "id" : "~YR&{1Ty",
+    "id" : "v6f0gZp5V",
     "parentid" : null
   },
   "version" : 20
