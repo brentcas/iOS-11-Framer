@@ -23557,7 +23557,7 @@
                     "aspectRatioLocked" : false,
                     "blendingEnabled" : 0,
                     "blendingMode" : "normal",
-                    "blur" : 10,
+                    "blur" : 20,
                     "blurEnabled" : 1,
                     "blurType" : "background",
                     "borderBottom" : 1,
@@ -28719,7 +28719,7 @@
                     "exportOptions" : [
 
                     ],
-                    "fillColor" : "#0A0A0A",
+                    "fillColor" : "hsla(0, 0%, 4%, 0.96)",
                     "fillEnabled" : true,
                     "fillGradient" : {
                       "__class" : "LinearGradient",
@@ -28899,9 +28899,9 @@
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
-                "blur" : 12,
-                "blurEnabled" : 0,
-                "blurType" : "layer",
+                "blur" : 20,
+                "blurEnabled" : 1,
+                "blurType" : "background",
                 "borderBottom" : 1,
                 "borderColor" : "#222",
                 "borderEnabled" : 0,
@@ -42235,7 +42235,7 @@
                 "exportOptions" : [
 
                 ],
-                "fillColor" : "rgba(0, 0, 0, 0.83)",
+                "fillColor" : "hsla(0, 0%, 4%, 0.96)",
                 "fillEnabled" : true,
                 "fillGradient" : {
                   "__class" : "LinearGradient",
@@ -42388,7 +42388,7 @@
                     "aspectRatioLocked" : false,
                     "blendingEnabled" : 0,
                     "blendingMode" : "normal",
-                    "blur" : 10,
+                    "blur" : 20,
                     "blurEnabled" : 1,
                     "blurType" : "background",
                     "borderBottom" : 1,
@@ -51422,7 +51422,7 @@
                     "exportOptions" : [
 
                     ],
-                    "fillColor" : "#0A0A0A",
+                    "fillColor" : "hsla(0, 0%, 4%, 0.96)",
                     "fillEnabled" : true,
                     "fillGradient" : {
                       "__class" : "LinearGradient",
@@ -52142,7 +52142,7 @@
                 "exportOptions" : [
 
                 ],
-                "fillColor" : "#000000",
+                "fillColor" : "rgba(255, 255, 255, 0)",
                 "fillEnabled" : true,
                 "fillGradient" : {
                   "__class" : "LinearGradient",
