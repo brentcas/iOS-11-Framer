@@ -11,7 +11,7 @@
         "exportOptions" : [
 
         ],
-        "fillColor" : "#E8E8E8",
+        "fillColor" : "rgba(0, 0, 0, 0.03)",
         "fillEnabled" : true,
         "fillGradient" : {
           "__class" : "LinearGradient",
