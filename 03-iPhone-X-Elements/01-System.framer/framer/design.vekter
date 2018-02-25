@@ -9045,7 +9045,7 @@
         "invertEnabled" : 0,
         "left" : 2225,
         "locked" : false,
-        "name" : "homeQuickActionWithWidget",
+        "name" : "homeQuickActionWidget",
         "opacity" : 1,
         "parentid" : "LFlJLOuni",
         "radius" : 0,
