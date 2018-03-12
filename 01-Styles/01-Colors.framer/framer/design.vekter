@@ -28,7 +28,7 @@
         "locked" : true,
         "name" : "Background",
         "opacity" : 1,
-        "parentid" : "v6f0gZp5V",
+        "parentid" : "ishqdkaTx",
         "radius" : 0,
         "radiusBottomLeft" : 0,
         "radiusBottomRight" : 0,
@@ -7128,7 +7128,7 @@
         "locked" : true,
         "name" : "Colors",
         "opacity" : 1,
-        "parentid" : "v6f0gZp5V",
+        "parentid" : "ishqdkaTx",
         "radius" : 0,
         "radiusBottomLeft" : 0,
         "radiusBottomRight" : 0,
@@ -7181,7 +7181,7 @@
         "locked" : true,
         "name" : "Colors",
         "opacity" : 1,
-        "parentid" : "v6f0gZp5V",
+        "parentid" : "ishqdkaTx",
         "right" : null,
         "rotation" : 0,
         "saturate" : 100,
@@ -7260,7 +7260,7 @@
         "widthFactor" : null
       }
     ],
-    "id" : "v6f0gZp5V",
+    "id" : "ishqdkaTx",
     "parentid" : null
   },
   "version" : 20
