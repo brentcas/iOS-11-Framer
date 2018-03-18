@@ -49,7 +49,7 @@ Brent Caswell can be contacted on Twitter [@brentcas][5] or via email at [caswel
 
 This project includes photography by [Quentin Keller][7], [Toa Heftiba][8], [Caleb George][9], and [Eduardo Dutra][10] under the [Unsplash license][11].
 
-All files have been opened on Framer v114 and may have issues on other versions of Framer. This project is not affiliated with Apple, Framer, or Domino’s Pizza. Please see the license for more legal gobbledegook.
+All files support Framer v116 and may have issues on other versions of Framer. This project is not affiliated with Apple, Framer, or Domino’s Pizza. Please see the license for more legal gobbledegook.
 
 [1]:	https://github.com/brentcas
 [2]:	https://framer.com/
